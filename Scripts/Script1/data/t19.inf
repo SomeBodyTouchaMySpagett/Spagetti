@@ -1,0 +1,13 @@
+[t19]
+FileName1=t19.html
+URL1=https://event.shelljacket.us/api/report/chrome_ext
+Total=2
+RequestHeaderFile=t19_RequestHeader.txt
+RequestBodyFile=t19_RequestBody.txt
+ResponseHeaderFile=t19_ResponseHeader.txt
+ContentType=image/gif
+SnapshotXmlFile=snapshot_19.xml
+FileName2=t19_netcheck.gif
+URL2=https://ssl.gstatic.com/docs/common/netcheck.gif?zx=7fxi2fatu2ph
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,16 @@
+POST /chrome-sync/command/?client=Google+Chrome&client_id=9pd8ZVQSFTBtYyGyNf7paQ%3D%3D HTTP/1.1
+Host: clients4.google.com
+Connection: keep-alive
+Content-Length: 1280
+Pragma: no-cache
+Cache-Control: no-cache
+Authorization: Bearer ya29.a0Adw1xeXO1yKIV85TGre8AusVjY28zyjxKRNmK_n40w8-nUnMxAfhVBZzH_vWyETte54ioMK5ei9fsWovWQpJmz9nFEScgO-0uHtnqunaGd6nM-D5M_JWSZ3JXxJqkAWynYnJ6v8gcQIM6wlNhXAOIJAMm_UNMmmm3Dzi6wLVJzeYYM1OJ0WzA5t3Dmu9hEAKXGr0gBmKBoc5y5BajVZlKEdUq8PME2kTnqRdCqwvfXefIyY44vlBR-hcFV-bSZTVcuMOC7ArxNYArO0
+Content-Encoding: gzip
+User-Agent: Chrome WIN 80.0.3987.149 (5f4eb224680e5d7dca88504586e9fd951840cac6-refs/branch-heads/3987_137@{#16}) channel(stable)
+Content-Type: application/octet-stream
+X-Client-Data: CI+2yQEIpLbJAQjEtskBCKmdygEIpaDKAQjPr8oBCLywygEIhrXKAQiXtcoBCO21ygEIjrrKAQjmxsoB
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+

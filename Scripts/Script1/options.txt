@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Armaev\Documents\VuGen\Scripts\Script1
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\armaev\documents\vugen\scripts\script1\\logfile.log
+c:\users\armaev\documents\vugen\scripts\script1\\combined_Script1.c
+c:\users\armaev\documents\vugen\scripts\script1\\pre_cci.c

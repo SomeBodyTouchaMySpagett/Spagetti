@@ -1,0 +1,11 @@
+[t60]
+FileName1=t60.html
+URL1=https://docs.google.com/jserror?jobset=prod&script=https%3A%2F%2Fdocs.google.com%2Foffline%2Fsynctaskworker.js%3Fouid%3Du1eb3c0291fa6d0cc&error=Cello%20Client%20API%20request%20exceeded%20120000%20milliseconds.&line=Not%20available
+Total=1
+RequestHeaderFile=t60_RequestHeader.txt
+RequestBodyFile=t60_RequestBody.txt
+ResponseHeaderFile=t60_ResponseHeader.txt
+ContentType=
+SnapshotXmlFile=snapshot_60.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,11 @@
+[t58]
+FileName1=t58.html
+URL1=https://clients6.google.com/drive/v2internal/about?openDrive=true&reason=301&syncType=0&errorRecovery=false&fields=kind%2Cuser%2CquotaBytesTotal%2CquotaBytesUsed%2CquotaBytesUsedAggregate%2CquotaBytesUsedInTrash%2CquotaBytesByService%2CquotaType%2CrootFolderId%2CdomainSharingPolicy%2ClargestChangeId%2CimportFormats&key=AIzaSyDrRZPb_oNAJLpNm167axWK5i85cuYG_HQ
+Total=1
+RequestHeaderFile=t58_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t58_ResponseHeader.txt
+ContentType=application/octet-stream
+SnapshotXmlFile=snapshot_58.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

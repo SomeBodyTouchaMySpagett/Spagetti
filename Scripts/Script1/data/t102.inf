@@ -1,0 +1,15 @@
+[t102]
+FileName1=t101_merchants.html
+URL1=https://www.gstatic.com/autofill/weekly/merchants.json
+Total=2
+SnapshotXmlFile=snapshot_102.xml
+RequestHeaderFile=t102_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t102_ResponseHeader.txt
+FileName2=t102f1f1.htm
+URL2=http://localhost:1080/WebTours/home.html
+ContentType=text/html
+FrameIndex2=0.1.1
+UseFrameIndex=1
+[ProtocolInfo]
+ProtocolId=QTWeb

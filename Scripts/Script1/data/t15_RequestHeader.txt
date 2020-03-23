@@ -1,0 +1,12 @@
+POST /invalidation/android/request/CHES4QEStwFBUEE5MWJITmEyb1dCN0VDek5US3NEXzd4UlZBblNwSWRqdGhtYzF4ZmljTC1HbEFCTEpYWFk1bFZlTnkwRlJfeHB5TnRvdXkyMEZDMTRac2x5N1RySmZSZ1ZGYkczM2xpdktub2tIRkhWallNQ2N4MDVSUlkxOS1mSllQQWFyZmlIZGk2WmZGRnZtSFRiTjAzanhZNDB4ZlJONE1VWVBSRHRheWtDY0RGa1pmQTcxTlp2X01kTmcaACoCCAAyH2NvbS5nb29nbGUuY2hyb21lLmludmFsaWRhdGlvbnM HTTP/1.1
+Host: clients4.google.com
+Connection: keep-alive
+Content-Length: 242
+Authorization: Bearer ya29.a0Adw1xeXzxvxW7xCXX-O8urVo2EPw2SuqxPGJzwIbl6Q3SVNhDxBhYL1ZEMs6UWw0izIs2Jzqi26sxRXcy6UOH4ERIr0LnqIiy4bv_6EO0zEia1Suqik9jOlopdCci-C68jz6IHQ-6M-sRw7Djul-Ce0b6lsX3qHYtdSsNJdirrKL3PTAY8dtgPiwBwlehHeBFGBCYFYDAhVBIT70Rzi4PujgIzslseFDu5Cemjh06SBnZWkUOQK4KcPuKKsRjiM0KFpmMki4dE18ROw
+Content-Type: application/x-protobuffer
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+

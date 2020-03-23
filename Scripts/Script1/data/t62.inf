@@ -1,0 +1,11 @@
+[t62]
+FileName1=t62_getRemainingCount.html
+URL1=https://clients6.google.com/drive/v2internal/changes/getRemainingCount?pageToken=73736&key=AIzaSyDrRZPb_oNAJLpNm167axWK5i85cuYG_HQ
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_62.xml
+RequestHeaderFile=t62_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t62_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

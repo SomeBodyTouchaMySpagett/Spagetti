@@ -1,0 +1,11 @@
+[t115]
+FileName1=t115.html
+URL1=http://update.googleapis.com/service/update2/json?cup2key=9:897500037&cup2hreq=e4c5eaf0a78fbbc47228345fa165445cfcc3ef300a561246ac8f68e9d3dfbc0f
+Total=1
+RequestHeaderFile=t115_RequestHeader.txt
+RequestBodyFile=t115_RequestBody.txt
+ResponseHeaderFile=t115_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_115.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

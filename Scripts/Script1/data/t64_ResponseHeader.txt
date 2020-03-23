@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Expires: Mon, 23 Mar 2020 00:12:05 GMT
+Date: Mon, 23 Mar 2020 00:12:05 GMT
+Cache-Control: private, max-age=0, must-revalidate, no-transform
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: https://docs.google.com
+Vary: Origin
+Vary: X-Origin
+Content-Type: application/json; charset=UTF-8
+Content-Encoding: gzip
+Access-Control-Expose-Headers: Cache-Control,Content-Encoding,Content-Length,Content-Type,Date,Expires,Server,Vary,X-Google-GFE-Backend-Request-Cost
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'self'
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alt-Svc: quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443"; ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,h3-T050=":443"; ma=2592000
+Transfer-Encoding: chunked
+

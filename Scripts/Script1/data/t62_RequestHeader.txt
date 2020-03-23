@@ -1,0 +1,16 @@
+GET /drive/v2internal/changes/getRemainingCount?pageToken=73736&key=AIzaSyDrRZPb_oNAJLpNm167axWK5i85cuYG_HQ HTTP/1.1
+Host: clients6.google.com
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36
+Sec-Fetch-Dest: empty
+authorization: SAPISIDHASH 1584922339_2dc29fafc865ec5e32fe513ff5621a2c6de6d910_u
+Accept: */*
+Origin: https://docs.google.com
+X-Client-Data: CI+2yQEIpLbJAQjEtskBCKmdygEIpaDKAQjPr8oBCLywygEIhrXKAQiXtcoBCO21ygEIjrrKAQjmxsoB
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Referer: https://docs.google.com/offline/extension/frame?ouid=
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: COMPASS=drivev2=ENiU4PMFGqYBAAlriVdbakpvFXWJ3grLJjaPdO7ja-HFDcjtriux2GHsVtGuOIGyI9lWvW_0BKzD4vFE_CEABfOuZkQSISmhADemBZof4UDPhboHMf9HK74qLuBYoKt66ner7aF5wOZAlv_pw05nNdoNU2EmILVbbM7q11jEAZpk443NTMYISB5GRyldF1O-QMYUY2Sap0DZIndDsJ9fCn8mnycR2nNJNoeF59kJKQ; __Secure-HSID=Aw9jMyJqY1_fJdP4n; __Secure-SSID=A17LAQosEpzBE-NBP; __Secure-APISID=vcGjFFB9PP-aTEaA/Ar4Mz4WNryKRF2F8P; __Secure-3PAPISID=UcyaO9ZOKzrZvLh5/Ag0uSFkdxwk_ma_Qh; __Secure-3PSID=uwcbClo0s42nLydR9zJMnT-yo2RjEa6lQhCdwOz3BOHtNrlV4K11IzNvGcaO6c9-q94WXA.; NID=200=Er0axQZYyEp23zKEFis9tMVh0OYJkTwm1RsDLs-I2xktDEBWsfQMkoAKelu7P9RHTafMGOzivh8OPqz2rjL0N3JEKdznWhdb4B-WNpkL46XknW2WUXLn4JEl-K3ALr_HEBYMin4h_J_SKb7DFTThRU1qDtcf6QuZ4aVkgOp_NSRq-Xzn7o_2Kj00FLRfU3NIldsZJxW87RUdiBQyy86beGMyKN2uT1QdEt_UX4njgnRsvQqM1Y8CkyHcsfk6fP6RkIxrd1_Abzx2Wgk
+

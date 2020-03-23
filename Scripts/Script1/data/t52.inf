@@ -1,0 +1,17 @@
+[t52]
+FileName1=t52.htm
+URL1=http://localhost:1080/WebTours/
+Total=3
+RequestHeaderFile=t52_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t52_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_52.xml
+FileName2=t52_netcheck.gif
+URL2=https://ssl.gstatic.com/docs/common/netcheck.gif?zx=kir3fm60p0p
+FileName3=t52f0.htm
+URL3=http://localhost:1080/WebTours/header.html
+FrameIndex3=0.0
+UseFrameIndex=1
+[ProtocolInfo]
+ProtocolId=QTWeb

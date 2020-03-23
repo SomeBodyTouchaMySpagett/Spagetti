@@ -1,0 +1,11 @@
+[t65]
+FileName1=t65.html
+URL1=https://clients6.google.com/batch/drive/v2internal
+Total=1
+RequestHeaderFile=t65_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t65_ResponseHeader.txt
+ContentType=application/octet-stream
+SnapshotXmlFile=snapshot_65.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

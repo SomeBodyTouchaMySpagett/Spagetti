@@ -1,0 +1,14 @@
+OPTIONS /drive/v2internal/about?openDrive=true&reason=301&syncType=0&errorRecovery=false&fields=kind%2Cuser%2CquotaBytesTotal%2CquotaBytesUsed%2CquotaBytesUsedAggregate%2CquotaBytesUsedInTrash%2CquotaBytesByService%2CquotaType%2CrootFolderId%2CdomainSharingPolicy%2ClargestChangeId%2CimportFormats&key=AIzaSyDrRZPb_oNAJLpNm167axWK5i85cuYG_HQ HTTP/1.1
+Host: clients6.google.com
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: authorization
+Origin: https://docs.google.com
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-site
+Referer: https://docs.google.com/offline/extension/frame?ouid=
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+

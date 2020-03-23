@@ -1,0 +1,13 @@
+[t59]
+FileName1=t59.html
+URL1=https://clients6.google.com/drive/v2internal/changes/getRemainingCount?pageToken=73736&key=AIzaSyDrRZPb_oNAJLpNm167axWK5i85cuYG_HQ
+Total=2
+RequestHeaderFile=t59_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t59_ResponseHeader.txt
+ContentType=application/octet-stream
+SnapshotXmlFile=snapshot_59.xml
+FileName2=t59_ga-audiences.gif
+URL2=https://www.google.ru/ads/ga-audiences?v=1&aip=1&t=sr&_r=4&tid=UA-93290101-2&cid=557659239.1548187056&jid=64153774&_v=j81&z=616555886&slf_rd=1&random=1158007550
+[ProtocolInfo]
+ProtocolId=QTWeb

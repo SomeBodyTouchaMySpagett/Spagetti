@@ -1,0 +1,3 @@
+"{\"event\":\"pageview\",\"payload\":{\"category\":1584920469666,\"connection-country\":\"gb\","
+"\"connection-status\":\"disconnected\",\"country\":\"ru\",\"hash\":\"tca2662e40fb5e9bd557ecd89"
+"91d2843d9\",\"id\":\"touch-vpn-chrome\",\"ts\":1584920469666,\"version\":3.13}}\n"

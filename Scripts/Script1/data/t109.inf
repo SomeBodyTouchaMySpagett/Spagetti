@@ -1,0 +1,10 @@
+[t109]
+FileName1=t107.html
+URL1=https://clients4.google.com/chrome-sync/command/?client=Google+Chrome&client_id=9pd8ZVQSFTBtYyGyNf7paQ%3D%3D
+Total=1
+SnapshotXmlFile=snapshot_109.xml
+RequestHeaderFile=t109_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t109_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

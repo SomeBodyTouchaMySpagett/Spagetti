@@ -1,0 +1,13 @@
+[t123]
+FileName1=t123.htm
+URL1=http://localhost:1080/cgi-bin/reservations.pl
+Total=2
+RequestHeaderFile=t123_RequestHeader.txt
+RequestBodyFile=t123_RequestBody.txt
+ResponseHeaderFile=t123_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_123.xml
+FileName2=t123_bookanother.gif
+URL2=http://localhost:1080/WebTours/images/bookanother.gif
+[ProtocolInfo]
+ProtocolId=QTWeb

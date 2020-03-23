@@ -1,0 +1,13 @@
+[t35]
+FileName1=t35.html
+URL1=https://clients4.google.com/chrome-sync/command/?client=Google+Chrome&client_id=9pd8ZVQSFTBtYyGyNf7paQ%3D%3D
+Total=2
+RequestHeaderFile=t35_RequestHeader.txt
+RequestBodyFile=t35_RequestBody.txt
+ResponseHeaderFile=t35_ResponseHeader.txt
+ContentType=application/vnd.google.octet-stream-compressible
+SnapshotXmlFile=snapshot_35.xml
+FileName2=t35_ga-audiences.gif
+URL2=https://www.google.ru/ads/ga-audiences?v=1&aip=1&t=sr&_r=4&tid=UA-93290101-2&cid=557659239.1548187056&jid=1260906403&_v=j81&z=911646633&slf_rd=1&random=2322479353
+[ProtocolInfo]
+ProtocolId=QTWeb

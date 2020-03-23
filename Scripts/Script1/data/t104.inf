@@ -1,0 +1,10 @@
+[t104]
+FileName1=t104_seed.html
+URL1=https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=80
+Total=2
+ContentType=text/html
+SnapshotXmlFile=snapshot_104.xml
+FileName2=t104f1f0.htm
+URL2=http://localhost:1080/cgi-bin/nav.pl?in=home
+FrameIndex2=0.1.0
+UseFrameIndex=1
