@@ -5,6 +5,13 @@ Action()
 
 	/*Possible OAUTH authorization was detected. It is recommended to correlate the authorization parameters.*/
 
+/*Correlation comment - Do not change!  Original value='128385.900526529zzADitQpHfiDDDDDDQzcDpAQiff' Name ='userSession' Type ='RecordReplay'*/
+	web_reg_save_param("userSession",
+	"LB/IC=name=\"userSession\" value=\"",
+	"RB=\"/>",
+	LAST);
+
+
 	web_url("WebTours", 
 		"URL=http://localhost:1080/WebTours/", 
 		"TargetFrame=", 
@@ -21,21 +28,21 @@ Action()
 
 	lr_think_time(7);
 
-	web_submit_data("login.pl", 
-		"Action=http://localhost:1080/cgi-bin/login.pl", 
-		"Method=POST", 
-		"TargetFrame=", 
-		"RecContentType=text/html", 
-		"Referer=http://localhost:1080/cgi-bin/nav.pl?in=home", 
-		"Snapshot=t16.inf", 
-		"Mode=HTML", 
-		ITEMDATA, 
-		"Name=userSession", "Value=128385.900526529zzADitQpHfiDDDDDDQzcDpAQiff", ENDITEM, 
-		"Name=username", "Value=jojo", ENDITEM, 
-		"Name=password", "Value=bean", ENDITEM, 
-		"Name=login.x", "Value=75", ENDITEM, 
-		"Name=login.y", "Value=2", ENDITEM, 
-		"Name=JSFormSubmit", "Value=off", ENDITEM, 
+	web_submit_data("login.pl",
+		"Action=http://localhost:1080/cgi-bin/login.pl",
+		"Method=POST",
+		"TargetFrame=",
+		"RecContentType=text/html",
+		"Referer=http://localhost:1080/cgi-bin/nav.pl?in=home",
+		"Snapshot=t16.inf",
+		"Mode=HTML",
+		ITEMDATA,
+		"Name=userSession", "Value={userSession}", ENDITEM,
+		"Name=username", "Value=jojo", ENDITEM,
+		"Name=password", "Value=bean", ENDITEM,
+		"Name=login.x", "Value=75", ENDITEM,
+		"Name=login.y", "Value=2", ENDITEM,
+		"Name=JSFormSubmit", "Value=off", ENDITEM,
 		LAST);
 
 	lr_end_transaction("1_transaction_Login",LR_AUTO);

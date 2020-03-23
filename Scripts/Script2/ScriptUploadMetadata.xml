@@ -26,6 +26,7 @@
     <FileEntry Name="mdrv.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
+    <FileEntry Name="output.bak" Filter="1" />
     <FileEntry Name="output.txt" Filter="1" />
     <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
     <FileEntry Name="Script2.c.pickle" Filter="1" />
@@ -34,7 +35,6 @@
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
     <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
     <FileEntry Name="UserTasks.xml" Filter="1" />
-    <FileEntry Name=".git\" Filter="1" />
     <FileEntry Name="data\" Filter="1" />
     <FileEntry Name="result1\" Filter="1" />
   </GeneralFiles>

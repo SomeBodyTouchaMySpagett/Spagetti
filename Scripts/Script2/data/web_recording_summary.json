@@ -123,7 +123,7 @@
     "BrowserVersion": "",
     "MaxUsedConnections": 36,
     "RecordedBrowser": "Chrome",
-    "RecordingDate": "мар-23-2020",
+    "RecordingDate": "РјР°СЂ-23-2020",
     "RecordingDuration": 274641,
     "RecordingTimeStamp": 1584923864,
     "TotalBytesReceived": 215066,
@@ -893,5 +893,5 @@
     "IncludeInScript": false,
     "IsScriptIncludeWebSocket": false
   },
-  "NumberOfCorrelations": 10
+  "NumberOfCorrelations": 11
 }
