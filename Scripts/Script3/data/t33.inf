@@ -1,0 +1,10 @@
+[t33]
+FileName1=t31.html
+URL1=https://oauthaccountmanager.googleapis.com/v1/issuetoken
+Total=1
+SnapshotXmlFile=snapshot_33.xml
+RequestHeaderFile=t33_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t33_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

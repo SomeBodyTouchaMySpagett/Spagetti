@@ -1,0 +1,13 @@
+POST /service/update2/json?cup2key=9:1096349779&cup2hreq=00a9dcb545bdc6dd8fc005d20067d373921ae02ecaa51839f663f9db83a14571 HTTP/1.1
+Host: update.googleapis.com
+Connection: keep-alive
+Content-Length: 944
+X-Goog-Update-AppId: ggkkehgbnfjpeggfpleeakpidbkibbmn
+X-Goog-Update-Interactivity: bg
+X-Goog-Update-Updater: chrome-80.0.3987.149
+Content-Type: application/json
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+

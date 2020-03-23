@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Mon, 23 Mar 2020 16:40:33 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Sun, 22 Mar 2020 16:40:33 GMT
+Set-Cookie: MTUserInfo=expDate&11%2F21&creditCard&123456789; path=/
+Keep-Alive: timeout=5, max=92
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
