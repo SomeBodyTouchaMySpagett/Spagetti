@@ -1,0 +1,13 @@
+POST /ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard HTTP/1.1
+Host: accounts.google.com
+Connection: keep-alive
+Content-Length: 1
+Origin: https://www.google.com
+Content-Type: application/x-www-form-urlencoded
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: ANID=AHWqTUkCr231W1LCtB8OrxtZ5hxZJj_TK_Feys7ePG7Z0I88OOMpgRrWTwCeFYoz; LSOLH=Ywg1fNeYWqQe4Ij4dGh72GffYe_R4hY:26211932:6055; CONSENT=YES+RU.ru+201911; HSID=Aw9jMyJqY1_fJdP4n; SSID=A17LAQosEpzBE-NBP; APISID=vcGjFFB9PP-aTEaA/Ar4Mz4WNryKRF2F8P; SAPISID=UcyaO9ZOKzrZvLh5/Ag0uSFkdxwk_ma_Qh; __Secure-HSID=Aw9jMyJqY1_fJdP4n; __Secure-SSID=A17LAQosEpzBE-NBP; __Secure-APISID=vcGjFFB9PP-aTEaA/Ar4Mz4WNryKRF2F8P; __Secure-3PAPISID=UcyaO9ZOKzrZvLh5/Ag0uSFkdxwk_ma_Qh; ACCOUNT_CHOOSER=AFx_qI67PnmZA1QQiG3FA0JVn9dKCyyN_r3oC7iBhgk4oK5MUe6x697rRyaBHYdU2Nt2Yl7cZhAymV9FkyNSZBB-wzgd5Lc_74W6B5wWsWsoy50oR1w7vVxnXsNx9kvOxg4HnP-89_Stw7LwficZZ6PVt8WqI0v01QITKFBcFaS0LnhVR7doQG0iRqpwRxmHV1JH6YQfNe7Fe5y9vkTdjItqtbXKkhu6kRvQ9G5ANBXrL6hVg0_GXPwH17lEHfqnWunzd2fw7RD3khTxqb51Mj2CYoshCM2CWOD72FJn16M-OUC6lHeYX0gbLnSfUsPR-kY0a9rqV0pi; LSID=lso|o.mail.google.com|s.RU|s.blogger|s.youtube:uAcbCjo2Xrr3ul9gwS64RHA442vhoMCONB3a2I1ToClMoY3OediYwSx1ITtA67bOHoL-qA.; __Host-3PLSID=lso|o.mail.google.com|s.RU|s.blogger|s.youtube:uAcbCjo2Xrr3ul9gwS64RHA442vhoMCONB3a2I1ToClMoY3OAFk2bEevUzvZZWBDj-PbeQ.; GAPS=1:xttJ9fycOvQUG0G3w1wakshA-fbzOfPR0cKie5XrsGCCzJ4pPjfsjt29KHEiEUntRvypEflUs2qrSt-AB0eGX0A2gxLUcg:BLvHWwthoz6mbf_6; SEARCH_SAMESITE=CgQImI8B; SID=uwcbClo0s42nLydR9zJMnT-yo2RjEa6lQhCdwOz3BOHtNrlV8B0PAS6-2a6_qBVmi7NsIw.; __Secure-3PSID=uwcbClo0s42nLydR9zJMnT-yo2RjEa6lQhCdwOz3BOHtNrlV4K11IzNvGcaO6c9-q94WXA.; NID=200=Er0axQZYyEp23zKEFis9tMVh0OYJkTwm1RsDLs-I2xktDEBWsfQMkoAKelu7P9RHTafMGOzivh8OPqz2rjL0N3JEKdznWhdb4B-WNpkL46XknW2WUXLn4JEl-K3ALr_HEBYMin4h_J_SKb7DFTThRU1qDtcf6QuZ4aVkgOp_NSRq-Xzn7o_2Kj00FLRfU3NIldsZJxW87RUdiBQyy86beGMyKN2uT1QdEt_UX4njgnRsvQqM1Y8CkyHcsfk6fP6RkIxrd1_Abzx2Wgk; 1P_JAR=2020-3-23-0; SIDCC=AJi4QfGhFKdW_WlCKuYw0C2NMHB3YNvnfdeMTmXxzwKDVxTNuT0MDJMZgLH9htlNrY1L0-UItSmr
+

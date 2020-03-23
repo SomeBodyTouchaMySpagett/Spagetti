@@ -1,0 +1,14 @@
+POST /api/report/chrome_ext HTTP/1.1
+Host: event.shelljacket.us
+Connection: keep-alive
+Content-Length: 1416
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36
+Sec-Fetch-Dest: empty
+Accept: */*
+Origin: chrome-extension://bihmplhobchoageeokmgbdihknkjbknd
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: cors
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+

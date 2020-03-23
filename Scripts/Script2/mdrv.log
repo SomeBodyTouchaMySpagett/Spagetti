@@ -1,0 +1,76 @@
+Virtual User Script started at: 23.03.2020 3:47:18
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.55.0 for Windows 8.1; build 911 (èþë 24 2017 19:46:00)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36  	[MsgId: MMSG-26988]
+Run-Time Settings file: "C:\Users\Armaev\Documents\VuGen\Scripts\Script2\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(4): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(8): web_url("WebTours") started  	[MsgId: MMSG-26355]
+Action.c(8): Detected non-resource "http://localhost:1080/WebTours/header.html" in "http://localhost:1080/WebTours/"  	[MsgId: MMSG-26574]
+Action.c(8): Detected non-resource "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" in "http://localhost:1080/WebTours/"  	[MsgId: MMSG-26574]
+Action.c(8): Found resource "http://localhost:1080/WebTours/images/hp_logo.png" in HTML "http://localhost:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
+Action.c(8): Found resource "http://localhost:1080/WebTours/images/webtours.png" in HTML "http://localhost:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
+Action.c(8): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(8): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(8): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+Action.c(8): web_url("WebTours") was successful, 11465 body bytes, 2445 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(20): Notify: Transaction "1_transaction_Login" started.
+Action.c(24): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+Action.c(24): web_submit_data("login.pl") was successful, 795 body bytes, 228 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(41): Notify: Transaction "1_transaction_Login" ended with a "Pass" status (Duration: 0,0509 Wasted Time: 0,0045).
+Action.c(45): Notify: Transaction "2_transaction_Flights" started.
+Action.c(49): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+Action.c(49): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights" in "http://localhost:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+Action.c(49): Detected non-resource "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" in "http://localhost:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+Action.c(49): Found resource "http://localhost:1080/WebTours/images/in_flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+Action.c(49): Found resource "http://localhost:1080/WebTours/images/itinerary.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+Action.c(49): Found resource "http://localhost:1080/WebTours/images/home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+Action.c(49): Found resource "http://localhost:1080/WebTours/images/signoff.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+Action.c(49): Found resource "http://localhost:1080/WebTours/images/button_next.gif" in HTML "http://localhost:1080/cgi-bin/reservations.pl?page=welcome"  	[MsgId: MMSG-26659]
+Action.c(49): web_url("welcome.pl") was successful, 10000 body bytes, 2220 header bytes, 43 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(59): Notify: Transaction "2_transaction_Flights" ended with a "Pass" status (Duration: 0,1573 Wasted Time: 0,0062).
+Action.c(61): Notify: Transaction "3_transaction_Flight_Info" started.
+Action.c(65): web_submit_data("reservations.pl") started  	[MsgId: MMSG-26355]
+Action.c(65): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(65): web_submit_data("reservations.pl") was successful, 3598 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(90): Notify: Transaction "3_transaction_Flight_Info" ended with a "Pass" status (Duration: 0,0541 Wasted Time: 0,0040).
+Action.c(92): Notify: Transaction "4_transaction_Select_Time" started.
+Action.c(96): web_submit_data("reservations.pl_2") started  	[MsgId: MMSG-26355]
+Action.c(96): Resource "http://localhost:1080/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(96): web_submit_data("reservations.pl_2") was successful, 2656 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(115): Notify: Transaction "4_transaction_Select_Time" ended with a "Pass" status (Duration: 0,0882 Wasted Time: 0,0043).
+Action.c(117): Notify: Transaction "5_transaction_Payment" started.
+Action.c(121): web_submit_data("reservations.pl_3") started  	[MsgId: MMSG-26355]
+Action.c(121): Found resource "http://localhost:1080/WebTours/images/bookanother.gif" in HTML "http://localhost:1080/cgi-bin/reservations.pl"  	[MsgId: MMSG-26659]
+Action.c(121): web_submit_data("reservations.pl_3") was successful, 3356 body bytes, 623 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(151): Notify: Transaction "5_transaction_Payment" ended with a "Pass" status (Duration: 0,0885 Wasted Time: 0,0049).
+Action.c(153): Notify: Transaction "6_transaction_Itinerary" started.
+Action.c(157): web_url("welcome.pl_2") started  	[MsgId: MMSG-26355]
+Action.c(157): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary" in "http://localhost:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
+Action.c(157): Detected non-resource "http://localhost:1080/cgi-bin/itinerary.pl" in "http://localhost:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
+Action.c(157): Found resource "http://localhost:1080/WebTours/images/flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
+Action.c(157): Found resource "http://localhost:1080/WebTours/images/in_itinerary.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
+Action.c(157): Resource "http://localhost:1080/WebTours/images/home.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(157): Resource "http://localhost:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(157): web_url("welcome.pl_2") was successful, 4419 body bytes, 1323 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(167): Notify: Transaction "6_transaction_Itinerary" ended with a "Pass" status (Duration: 0,1191 Wasted Time: 0,0054).
+Action.c(169): Notify: Transaction "7_transaction_Logoff" started.
+Action.c(173): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+Action.c(173): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+Action.c(173): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+Action.c(173): Retrieving data from cache for "http://localhost:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+Action.c(173): Resource "http://localhost:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(173): web_url("SignOff Button") was successful, 3579 body bytes, 644 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(183): Notify: Transaction "7_transaction_Logoff" ended with a "Pass" status (Duration: 0,0836 Wasted Time: 0,0042).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

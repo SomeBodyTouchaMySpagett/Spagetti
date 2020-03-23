@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+access-control-allow-headers: origin, x-csrftoken, content-type, accept
+access-control-allow-methods: OPTIONS, GET, POST
+access-control-allow-origin: *
+access-control-request-method: *
+server: gpr-edge
+date: Mon, 23 Mar 2020 00:41:03 GMT
+content-length: 0
+
