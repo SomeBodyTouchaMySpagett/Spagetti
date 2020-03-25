@@ -18,6 +18,8 @@ Action()
 		LAST);
 
 	/* Login */
+	
+	lr_start_transaction("0_transaction_Script_4");
 
 	lr_start_transaction("1_transaction_Login");
 
@@ -224,6 +226,8 @@ Action()
 		LAST);
 
 	lr_end_transaction("8_transaction_Select_Time",LR_AUTO);
+	
+	lr_end_transaction("0_transaction_Script_4",LR_AUTO);
 
 	return 0;
 }

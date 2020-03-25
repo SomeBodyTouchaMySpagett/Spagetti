@@ -2630,6 +2630,8 @@ Action()
 	 
 
 	lr_think_time(7);
+	
+	lr_start_transaction("0_transaction_Script_1");
 
 	lr_start_transaction("1_transaction_Login");
 
@@ -2782,6 +2784,8 @@ Action()
 		"LAST");
 
 	lr_end_transaction("6_transaction_Logoff",2);
+	
+	lr_end_transaction("0_transaction_Script_1",2);
 
 	return 0;
 }

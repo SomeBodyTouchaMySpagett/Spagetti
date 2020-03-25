@@ -2615,6 +2615,8 @@ Action()
 		"Mode=HTML", 
 		"LAST");
 
+	lr_start_transaction("0_transaction_Script_5");
+	
 	lr_start_transaction("1_transaction_Login");
 
 	web_submit_data("login.pl",
@@ -2667,6 +2669,8 @@ Action()
 		"LAST");
 
 	lr_end_transaction("3_transaction_Logoff",2);
+	
+	lr_end_transaction("0_transaction_Script_5",2);
 
 	return 0;
 }

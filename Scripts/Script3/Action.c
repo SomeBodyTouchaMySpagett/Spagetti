@@ -16,6 +16,8 @@ Action()
 	/* Login */
 
 	lr_think_time(4);
+	
+	lr_start_transaction("0_transaction_Script_2");
 
 	lr_start_transaction("1_transaction_Login");
 
@@ -147,6 +149,8 @@ Action()
 		LAST);
 
 	lr_end_transaction("5_transaction_Payment",LR_AUTO);
+	
+	lr_end_transaction("0_transaction_Script_2",LR_AUTO);
 
 	return 0;
 }

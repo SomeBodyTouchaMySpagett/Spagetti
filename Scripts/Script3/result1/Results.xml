@@ -135,7 +135,7 @@
 <Res><![CDATA[result1]]></Res>
 <Action rID="T2">
 <AName><![CDATA[vuser_init]]></AName>
-<Summary sTime="23.03.2020 - 22:08:34" eTime="23.03.2020 - 22:08:34" passed="0" failed="0" warnings="0" ></Summary>
+<Summary sTime="25.03.2020 - 14:41:39" eTime="25.03.2020 - 14:41:39" passed="0" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="5" >
 <Disp><![CDATA[vuser_init Summary]]></Disp>
 </NodeArgs>
@@ -146,8 +146,8 @@
 <Step rID="T5">
 <Obj plainTxt="False" ><![CDATA[Url: WebTours]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[23.03.2020 - 22:08:34]]></Time>
-<TimeTick>1584990514</TimeTick>
+<Time><![CDATA[25.03.2020 - 14:41:39]]></Time>
+<TimeTick>1585136499</TimeTick>
 <NodeArgs eType="General" icon="4" nRep="9" status="Passed" >
 <Disp><![CDATA[Url: WebTours]]></Disp>
 <BtmPane vType="HTMLSNSH" >
@@ -158,8 +158,8 @@
 <Step rID="T6">
 <Obj plainTxt="False" ><![CDATA[Submit Data: login.pl]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[23.03.2020 - 22:08:34]]></Time>
-<TimeTick>1584990514</TimeTick>
+<Time><![CDATA[25.03.2020 - 14:41:48]]></Time>
+<TimeTick>1585136508</TimeTick>
 <NodeArgs eType="General" icon="5" nRep="10" status="Passed" >
 <Disp><![CDATA[Submit Data: login.pl]]></Disp>
 <BtmPane vType="HTMLSNSH" >
@@ -170,8 +170,8 @@
 <Step rID="T7">
 <Obj plainTxt="False" ><![CDATA[Url: welcome.pl]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[23.03.2020 - 22:08:35]]></Time>
-<TimeTick>1584990515</TimeTick>
+<Time><![CDATA[25.03.2020 - 14:41:58]]></Time>
+<TimeTick>1585136518</TimeTick>
 <NodeArgs eType="General" icon="4" nRep="11" status="Passed" >
 <Disp><![CDATA[Url: welcome.pl]]></Disp>
 <BtmPane vType="HTMLSNSH" >
@@ -182,8 +182,8 @@
 <Step rID="T8">
 <Obj plainTxt="False" ><![CDATA[Submit Data: reservations.pl]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[23.03.2020 - 22:08:35]]></Time>
-<TimeTick>1584990515</TimeTick>
+<Time><![CDATA[25.03.2020 - 14:42:04]]></Time>
+<TimeTick>1585136524</TimeTick>
 <NodeArgs eType="General" icon="5" nRep="12" status="Passed" >
 <Disp><![CDATA[Submit Data: reservations.pl]]></Disp>
 <BtmPane vType="HTMLSNSH" >
@@ -194,8 +194,8 @@
 <Step rID="T9">
 <Obj plainTxt="False" ><![CDATA[Submit Data: reservations.pl_2]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[23.03.2020 - 22:08:35]]></Time>
-<TimeTick>1584990515</TimeTick>
+<Time><![CDATA[25.03.2020 - 14:42:09]]></Time>
+<TimeTick>1585136529</TimeTick>
 <NodeArgs eType="General" icon="5" nRep="13" status="Passed" >
 <Disp><![CDATA[Submit Data: reservations.pl_2]]></Disp>
 <BtmPane vType="HTMLSNSH" >
@@ -206,8 +206,8 @@
 <Step rID="T10">
 <Obj plainTxt="False" ><![CDATA[Submit Data: reservations.pl_3]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[23.03.2020 - 22:08:35]]></Time>
-<TimeTick>1584990515</TimeTick>
+<Time><![CDATA[25.03.2020 - 14:42:14]]></Time>
+<TimeTick>1585136534</TimeTick>
 <NodeArgs eType="General" icon="5" nRep="14" status="Passed" >
 <Disp><![CDATA[Submit Data: reservations.pl_3]]></Disp>
 <BtmPane vType="HTMLSNSH" >
@@ -215,7 +215,7 @@
 </BtmPane>
 </NodeArgs>
 </Step>
-<Summary sTime="23.03.2020 - 22:08:34" eTime="23.03.2020 - 22:08:35" passed="6" failed="0" warnings="0" ></Summary>
+<Summary sTime="25.03.2020 - 14:41:39" eTime="25.03.2020 - 14:42:14" passed="6" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="8" status="Passed" >
 <Disp><![CDATA[Action Summary]]></Disp>
 </NodeArgs>
@@ -226,12 +226,12 @@
 </DIter>
 <Action rID="T11">
 <AName><![CDATA[vuser_end]]></AName>
-<Summary sTime="23.03.2020 - 22:08:35" eTime="23.03.2020 - 22:08:35" passed="0" failed="0" warnings="0" ></Summary>
+<Summary sTime="25.03.2020 - 14:42:14" eTime="25.03.2020 - 14:42:14" passed="0" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="17" >
 <Disp><![CDATA[vuser_end Summary]]></Disp>
 </NodeArgs>
 </Action>
-<Summary sTime="23.03.2020 - 22:08:34" eTime="23.03.2020 - 22:08:35" passed="6" failed="0" warnings="0" ></Summary>
+<Summary sTime="25.03.2020 - 14:41:39" eTime="25.03.2020 - 14:42:14" passed="6" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartTest" icon="1" nRep="4" status="Passed" >
 <Disp><![CDATA[Test Script3 Summary]]></Disp>
 </NodeArgs>

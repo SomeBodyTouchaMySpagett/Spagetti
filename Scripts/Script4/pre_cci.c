@@ -2615,6 +2615,8 @@ Action()
 		"LAST");
 
 	 
+	
+	lr_start_transaction("0_transaction_Script_4");
 
 	lr_start_transaction("1_transaction_Login");
 
@@ -2668,9 +2670,9 @@ Action()
 		"ITEMDATA", 
 		"Name=advanceDiscount", "Value=0", "ENDITEM", 
 		"Name=depart", "Value=Seattle", "ENDITEM", 
-		"Name=departDate", "Value=03/24/2020", "ENDITEM", 
+		"Name=departDate", "Value={depart_date}", "ENDITEM", 
 		"Name=arrive", "Value=Sydney", "ENDITEM", 
-		"Name=returnDate", "Value=03/27/2020", "ENDITEM", 
+		"Name=returnDate", "Value={arrive_date}", "ENDITEM", 
 		"Name=numPassengers", "Value=1", "ENDITEM", 
 		"Name=seatPref", "Value=Window", "ENDITEM", 
 		"Name=seatType", "Value=Business", "ENDITEM", 
@@ -2783,9 +2785,9 @@ Action()
 		"ITEMDATA", 
 		"Name=advanceDiscount", "Value=0", "ENDITEM", 
 		"Name=depart", "Value=Los Angeles", "ENDITEM", 
-		"Name=departDate", "Value=03/24/2020", "ENDITEM", 
+		"Name=departDate", "Value={depart_date}", "ENDITEM", 
 		"Name=arrive", "Value=San Francisco", "ENDITEM", 
-		"Name=returnDate", "Value=03/27/2020", "ENDITEM", 
+		"Name=returnDate", "Value={arrive_date}", "ENDITEM", 
 		"Name=numPassengers", "Value=1", "ENDITEM", 
 		"Name=seatPref", "Value=Window", "ENDITEM", 
 		"Name=seatType", "Value=Business", "ENDITEM", 
@@ -2821,6 +2823,8 @@ Action()
 		"LAST");
 
 	lr_end_transaction("8_transaction_Select_Time",2);
+	
+	lr_end_transaction("0_transaction_Script_4",2);
 
 	return 0;
 }
