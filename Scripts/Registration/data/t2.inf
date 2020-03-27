@@ -1,0 +1,10 @@
+[t2]
+FileName1=t1.htm
+URL1=http://localhost:1080/WebTours/
+Total=2
+SnapshotXmlFile=snapshot_2.xml
+FileName2=t2f0.htm
+URL2=http://localhost:1080/WebTours/header.html
+ContentType=text/html
+FrameIndex2=0.0
+UseFrameIndex=1

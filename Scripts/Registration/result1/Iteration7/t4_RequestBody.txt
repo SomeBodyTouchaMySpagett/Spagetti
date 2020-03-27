@@ -1,0 +1,2 @@
+"username=player7&password=pass7&passwordConfirm=pass7&firstName=Robert&lastName=Lewandowski&ad"
+"dress1=Lewandowski+Strasse&address2=Munich&register.x=73&register.y=7"

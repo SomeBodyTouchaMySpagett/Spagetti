@@ -1,0 +1,10 @@
+[t14]
+FileName1=t12.html
+URL1=https://oauthaccountmanager.googleapis.com/v1/issuetoken
+Total=1
+SnapshotXmlFile=snapshot_14.xml
+RequestHeaderFile=t14_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t14_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

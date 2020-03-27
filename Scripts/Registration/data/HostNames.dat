@@ -1,0 +1,17 @@
+[hosts]
+localhost=
+www.google-analytics.com=
+www.googleapis.com=
+www.gstatic.com=
+accounts.google.com=
+clientservices.googleapis.com=
+ssl.gstatic.com=
+oauthaccountmanager.googleapis.com=
+clients4.google.com=
+stats.g.doubleclick.net=
+content-autofill.googleapis.com=
+www.google.com=
+www.google.ru=
+clients2.google.com=
+update.googleapis.com=
+safebrowsing.googleapis.com=
