@@ -1,18 +1,18 @@
 HTTP/1.1 200 OK
-Content-Security-Policy: script-src 'report-sample' 'nonce-19CobntrHhjr5RrSxboruA' 'unsafe-inline' 'strict-dynamic' https: http:;object-src 'none';base-uri 'self';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1
+Content-Security-Policy: script-src 'report-sample' 'nonce-YWQpNirTAl8cXDteriqYfA' 'unsafe-inline' 'strict-dynamic' https: http:;object-src 'none';base-uri 'self';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1
 Cache-Control: no-cache, no-store, max-age=0, must-revalidate
 Pragma: no-cache
 Expires: Mon, 01 Jan 1990 00:00:00 GMT
-Date: Mon, 23 Mar 2020 19:22:51 GMT
-X-Cup-Server-Proof: 3046022100e8cf72889aba31d602c2bb556974be3112fa0e2a26f4eeb8c2a90d91a218b6e3022100b5a8ea0b30209e4bbe54adbb2622847cb64869c55ad3316f44396258dca88a00:32edf58a864a57756f85286fe2a45da610b31d7897a487733e681a741255b65c
-ETag: W/"3046022100e8cf72889aba31d602c2bb556974be3112fa0e2a26f4eeb8c2a90d91a218b6e3022100b5a8ea0b30209e4bbe54adbb2622847cb64869c55ad3316f44396258dca88a00:32edf58a864a57756f85286fe2a45da610b31d7897a487733e681a741255b65c"
+Date: Mon, 23 Mar 2020 19:11:16 GMT
+X-Cup-Server-Proof: 30450221008b8a1e5ed080809f8fd102eb5e9b7d6b6a9f1953620acb7911ea7a9d81ccee1502200e56e1694203498ded346bbe0491d8d24a7ebcf5e9913ca96d8bb8265887eaab:1ead19485820c9c01ac34f2b417d2a38b3bdb65a05fb71e3101aa826b8585730
+ETag: W/"30450221008b8a1e5ed080809f8fd102eb5e9b7d6b6a9f1953620acb7911ea7a9d81ccee1502200e56e1694203498ded346bbe0491d8d24a7ebcf5e9913ca96d8bb8265887eaab:1ead19485820c9c01ac34f2b417d2a38b3bdb65a05fb71e3101aa826b8585730"
 Content-Type: application/json; charset=utf-8
 X-Daynum: 4830
-X-Daystart: 44571
+X-Daystart: 43876
 Content-Encoding: gzip
 X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
 X-XSS-Protection: 1; mode=block
-Content-Length: 635
+Content-Length: 632
 Server: GSE
 

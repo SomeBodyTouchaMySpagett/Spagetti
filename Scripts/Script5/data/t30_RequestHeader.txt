@@ -1,0 +1,11 @@
+GET /abp-filters-anti-cv.txt?addonName=adblockforchrome&addonVersion=4.8.0&application=chrome&applicationVersion=80.0.3987.149&platform=chromium&platformVersion=80.0.3987.149&lastVersion=202003271750&downloadCount=4%2B&firstVersion=201908-E HTTP/1.1
+Host: easylist-downloads.adblockplus.org
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36
+Sec-Fetch-Dest: empty
+Accept: */*
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: cors
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+

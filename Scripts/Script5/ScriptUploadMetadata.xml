@@ -11,13 +11,25 @@
     <FileEntry Name="Script5.usr" Filter="4" />
     <FileEntry Name="default.cfg" Filter="4" />
     <FileEntry Name="default.usp" Filter="4" />
+    <FileEntry Name="Script5.prm" Filter="2" />
     <FileEntry Name="globals.h" Filter="2" />
+    <FileEntry Name="Class.dat" Filter="2" />
+    <FileEntry Name="Login.dat" Filter="2" />
+    <FileEntry Name="City_1.dat" Filter="2" />
+    <FileEntry Name="City_2.dat" Filter="2" />
+    <FileEntry Name="Sit.dat" Filter="2" />
     <FileEntry Name="combined_Script5.c" Filter="2" />
     <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="136291862440.idx" Filter="1" />
+    <FileEntry Name="164220849440.idx" Filter="1" />
+    <FileEntry Name="165072465440.idx" Filter="1" />
+    <FileEntry Name="264635963440.idx" Filter="1" />
+    <FileEntry Name="65520587440.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
     <FileEntry Name="custom_body_variables.txt" Filter="1" />
+    <FileEntry Name="data.zip" Filter="1" />
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="lrw_custom_body.h" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
@@ -26,8 +38,10 @@
     <FileEntry Name="output.bak" Filter="1" />
     <FileEntry Name="output.txt" Filter="1" />
     <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
+    <FileEntry Name="Script4.prm.bak" Filter="1" />
     <FileEntry Name="Script5.c.pickle" Filter="1" />
     <FileEntry Name="Script5.ci" Filter="1" />
+    <FileEntry Name="Script5.prm.bak" Filter="1" />
     <FileEntry Name="Script5.sdf" Filter="1" />
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
     <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />

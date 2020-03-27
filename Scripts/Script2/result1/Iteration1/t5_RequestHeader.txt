@@ -7,6 +7,6 @@ Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
 Accept: */*
 Connection: Keep-Alive
 Host: localhost:1080
-Cookie: MSO=SID&1585135946&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50
-Content-Length: 186
+Cookie: MSO=SID&1585339504; MTUserInfo=firstName&Paul&address2&Manchester&username&player1&hash&113&lastName&Pogba%0A&address1&Pogba%20Street&creditCard&&expDate&%0A
+Content-Length: 185
 

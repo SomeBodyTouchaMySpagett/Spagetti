@@ -1,0 +1,17 @@
+[t67]
+FileName1=t62.htm
+URL1=http://localhost:1080/cgi-bin/welcome.pl?page=search
+Total=3
+FileName2=t62f0.htm
+URL2=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights
+FrameIndex2=0.0
+UseFrameIndex=1
+FileName3=t66f1.htm
+URL3=http://localhost:1080/cgi-bin/reservations.pl
+FrameIndex3=0.1
+SnapshotXmlFile=snapshot_67.xml
+RequestHeaderFile=t67_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t67_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

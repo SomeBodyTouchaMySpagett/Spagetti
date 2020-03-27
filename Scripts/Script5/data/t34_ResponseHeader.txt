@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Content-Type: image/gif
+Content-Length: 43
+Date: Fri, 27 Mar 2020 19:22:02 GMT
+Pragma: no-cache
+Expires: Fri, 01 Jan 1990 00:00:00 GMT
+Cache-Control: no-cache, no-store, must-revalidate
+Last-Modified: Tue, 03 Mar 2020 20:15:00 GMT
+X-Content-Type-Options: nosniff
+Server: sffe
+X-XSS-Protection: 0
+Alt-Svc: quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443"; ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,h3-T050=":443"; ma=2592000
+

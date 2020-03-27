@@ -1,4 +1,4 @@
-"firstName=Jojo&lastName=Bean&address1=Sting&address2=London&pass1=Jojo+Bean&creditCard=1234567"
-"89&expDate=11%2F21&saveCC=on&oldCCOption=on&numPassengers=1&seatType=Business&seatPref=Window&"
-"outboundFlight=242%3B149%3B03%2F24%2F2020&advanceDiscount=0&returnFlight=&JSFormSubmit=off&buy"
-"Flights.x=64&buyFlights.y=5&.cgifields=saveCC"
+"firstName=Paul&lastName=Pogba&address1=Pogba+Street&address2=Manchester&pass1=Paul+%2B+Pogba&c"
+"reditCard=1111+2222+3333+4444&expDate=11%2F21&saveCC=on&oldCCOption=on&numPassengers=1&seatTyp"
+"e=Business&seatPref=None&outboundFlight=242%3B149%3B03%2F24%2F2020&advanceDiscount=0&returnFli"
+"ght=&JSFormSubmit=off&buyFlights.x=64&buyFlights.y=5&.cgifields=saveCC"

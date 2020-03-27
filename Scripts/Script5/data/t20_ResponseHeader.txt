@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Im: x-bm
+X-Content-Type-Options: nosniff
+X-Country: ru
+X-Frame-Options: SAMEORIGIN
+X-Seed-Signature: MEUCIQCmYhSesAZnd+cTaUG+koh1LOW7IKIYSJckGl22Ul4jBAIgFQuJvrHzIwJJRAm6MrHRsV6Id6m+18msWRnWciftekc=
+X-Xss-Protection: 0
+Date: Fri, 27 Mar 2020 19:20:53 GMT
+Content-Length: 72
+Content-Type: application/octet-stream
+Alt-Svc: quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443"; ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,h3-T050=":443"; ma=2592000
+

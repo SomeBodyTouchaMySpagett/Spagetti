@@ -11,5 +11,5 @@ Sec-Fetch-User: ?1
 Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home
 Accept-Encoding: gzip, deflate, br
 Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
-Cookie: MSO=SID&1584991314&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&Jojo&address2&&username&jojo&hash&47&lastName&Bean%0A&address1&&creditCard&123456789&expDate&11%2F21%0A
+Cookie: MSO=SID&1584990625&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&Jojo&address2&&username&jojo&hash&47&lastName&Bean%0A&address1&&creditCard&123456789&expDate&11%2F21%0A
 

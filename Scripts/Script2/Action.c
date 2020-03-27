@@ -1,7 +1,8 @@
 Action()
 {
-
-	web_set_sockets_option("SSL_VERSION", "2&3");
+	lr_start_transaction("transaction_Login-Buy-Itinerary-Exit");
+	
+	web_reg_find("Text=Welcome to the Web Tours site.","Search=Body",LAST);
 
 	/*Possible OAUTH authorization was detected. It is recommended to correlate the authorization parameters.*/
 
@@ -10,7 +11,6 @@ Action()
 	"LB/IC=name=\"userSession\" value=\"",
 	"RB=\"/>",
 	LAST);
-
 
 	web_url("WebTours", 
 		"URL=http://localhost:1080/WebTours/", 
@@ -23,13 +23,11 @@ Action()
 		LAST);
 
 	/* Login */
-	
-	lr_start_transaction("0_transaction_Script_2");
 
 	lr_start_transaction("1_transaction_Login");
 
-	lr_think_time(7);
-
+	web_reg_find("Text=Welcome",LAST);
+	
 	web_submit_data("login.pl",
 		"Action=http://localhost:1080/cgi-bin/login.pl",
 		"Method=POST",
@@ -40,8 +38,8 @@ Action()
 		"Mode=HTML",
 		ITEMDATA,
 		"Name=userSession", "Value={userSession}", ENDITEM,
-		"Name=username", "Value=jojo", ENDITEM,
-		"Name=password", "Value=bean", ENDITEM,
+		"Name=username", "Value={Login}", ENDITEM,
+		"Name=password", "Value={Password}", ENDITEM,
 		"Name=login.x", "Value=75", ENDITEM,
 		"Name=login.y", "Value=2", ENDITEM,
 		"Name=JSFormSubmit", "Value=off", ENDITEM,
@@ -49,11 +47,11 @@ Action()
 
 	lr_end_transaction("1_transaction_Login",LR_AUTO);
 
-	lr_think_time(15);
+	lr_think_time(5);
 
 	lr_start_transaction("2_transaction_Flights");
-
-	lr_think_time(13);
+	
+	web_reg_find("Text=Find Flight","Search=Body",LAST);
 
 	web_url("welcome.pl", 
 		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=search", 
@@ -66,10 +64,12 @@ Action()
 		LAST);
 
 	lr_end_transaction("2_transaction_Flights",LR_AUTO);
+	
+	lr_think_time(5);
 
 	lr_start_transaction("3_transaction_Flight_Info");
 
-	lr_think_time(46);
+	web_reg_find("Text=Find Flight","Search=Body",LAST);
 
 	web_submit_data("reservations.pl", 
 		"Action=http://localhost:1080/cgi-bin/reservations.pl", 
@@ -81,14 +81,14 @@ Action()
 		"Mode=HTML", 
 		ITEMDATA, 
 		"Name=advanceDiscount", "Value=0", ENDITEM, 
-		"Name=depart", "Value=Sydney", ENDITEM, 
+		"Name=depart", "Value={City_1}", ENDITEM, 
 		"Name=departDate", "Value={depart_date}", ENDITEM, 
-		"Name=arrive", "Value=Zurich", ENDITEM, 
+		"Name=arrive", "Value={City_2}", ENDITEM, 
 		"Name=returnDate", "Value={arrive_date}", ENDITEM, 
 		"Name=numPassengers", "Value=1", ENDITEM, 
 		"Name=roundtrip", "Value=on", ENDITEM, 
-		"Name=seatPref", "Value=Aisle", ENDITEM, 
-		"Name=seatType", "Value=First", ENDITEM, 
+		"Name=seatPref", "Value={Sit}", ENDITEM, 
+		"Name=seatType", "Value={Class}", ENDITEM, 
 		"Name=findFlights.x", "Value=53", ENDITEM, 
 		"Name=findFlights.y", "Value=5", ENDITEM, 
 		"Name=.cgifields", "Value=roundtrip", ENDITEM, 
@@ -97,10 +97,12 @@ Action()
 		LAST);
 
 	lr_end_transaction("3_transaction_Flight_Info",LR_AUTO);
+	
+	lr_think_time(5);
 
 	lr_start_transaction("4_transaction_Select_Time");
-
-	lr_think_time(27);
+	
+	web_reg_find("Text=Payment Details","Search=Body",LAST);
 
 	web_submit_data("reservations.pl_2", 
 		"Action=http://localhost:1080/cgi-bin/reservations.pl", 
@@ -115,17 +117,19 @@ Action()
 		"Name=returnFlight", "Value=982;1903;03/26/2020", ENDITEM, 
 		"Name=numPassengers", "Value=1", ENDITEM, 
 		"Name=advanceDiscount", "Value=0", ENDITEM, 
-		"Name=seatType", "Value=First", ENDITEM, 
-		"Name=seatPref", "Value=Aisle", ENDITEM, 
+		"Name=seatType", "Value={Class}", ENDITEM, 
+		"Name=seatPref", "Value={Sit}", ENDITEM, 
 		"Name=reserveFlights.x", "Value=38", ENDITEM, 
 		"Name=reserveFlights.y", "Value=9", ENDITEM, 
 		LAST);
 
 	lr_end_transaction("4_transaction_Select_Time",LR_AUTO);
+	
+	lr_think_time(5);
 
 	lr_start_transaction("5_transaction_Payment");
-
-	lr_think_time(53);
+	
+	web_reg_find("Text=Invoice","Search=Body",LAST);
 
 	web_submit_data("reservations.pl_3", 
 		"Action=http://localhost:1080/cgi-bin/reservations.pl", 
@@ -136,18 +140,18 @@ Action()
 		"Snapshot=t25.inf", 
 		"Mode=HTML", 
 		ITEMDATA, 
-		"Name=firstName", "Value=Jojo", ENDITEM, 
-		"Name=lastName", "Value=Bean", ENDITEM, 
-		"Name=address1", "Value=Huntress", ENDITEM, 
-		"Name=address2", "Value=New-York", ENDITEM, 
-		"Name=pass1", "Value=Jojo Bean", ENDITEM, 
-		"Name=creditCard", "Value=123456789", ENDITEM, 
+		"Name=firstName", "Value={Login}", ENDITEM, 
+		"Name=lastName", "Value={Password}", ENDITEM, 
+		"Name=address1", "Value={Street}", ENDITEM, 
+		"Name=address2", "Value={City}", ENDITEM, 
+		"Name=pass1", "Value={Name} + {LastName}", ENDITEM, 
+		"Name=creditCard", "Value={CreditCard}", ENDITEM, 
 		"Name=expDate", "Value=11/21", ENDITEM, 
 		"Name=saveCC", "Value=on", ENDITEM, 
 		"Name=oldCCOption", "Value=on", ENDITEM, 
 		"Name=numPassengers", "Value=1", ENDITEM, 
-		"Name=seatType", "Value=First", ENDITEM, 
-		"Name=seatPref", "Value=Aisle", ENDITEM, 
+		"Name=seatType", "Value={Class}", ENDITEM, 
+		"Name=seatPref", "Value={Sit}", ENDITEM, 
 		"Name=outboundFlight", "Value=892;1903;03/24/2020", ENDITEM, 
 		"Name=advanceDiscount", "Value=0", ENDITEM, 
 		"Name=returnFlight", "Value=982;1903;03/26/2020", ENDITEM, 
@@ -158,10 +162,12 @@ Action()
 		LAST);
 
 	lr_end_transaction("5_transaction_Payment",LR_AUTO);
+	
+	lr_think_time(5);
 
 	lr_start_transaction("6_transaction_Itinerary");
-
-	lr_think_time(33);
+	
+	web_reg_find("Text=Itinerary","Search=Body",LAST);
 
 	web_url("welcome.pl_2", 
 		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=itinerary", 
@@ -174,10 +180,12 @@ Action()
 		LAST);
 
 	lr_end_transaction("6_transaction_Itinerary",LR_AUTO);
+	
+	lr_think_time(5);
 
 	lr_start_transaction("7_transaction_Logoff");
-
-	lr_think_time(22);
+	
+	web_reg_find("Text=Welcome to the Web Tours site.","Search=Body",LAST);
 
 	web_url("SignOff Button", 
 		"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1", 
@@ -191,7 +199,7 @@ Action()
 
 	lr_end_transaction("7_transaction_Logoff",LR_AUTO);
 	
-	lr_end_transaction("0_transaction_Script_2",LR_AUTO);
+	lr_end_transaction("transaction_Login-Buy-Itinerary-Exit",LR_AUTO);
 
 	return 0;
 }

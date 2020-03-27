@@ -1,0 +1,13 @@
+POST /ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard HTTP/1.1
+Host: accounts.google.com
+Connection: keep-alive
+Content-Length: 1
+Origin: https://www.google.com
+Content-Type: application/x-www-form-urlencoded
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: ANID=AHWqTUkCr231W1LCtB8OrxtZ5hxZJj_TK_Feys7ePG7Z0I88OOMpgRrWTwCeFYoz; LSOLH=Ywg1fNeYWqQe4Ij4dGh72GffYe_R4hY:26211932:6055; CONSENT=YES+RU.ru+201911; HSID=Aw9jMyJqY1_fJdP4n; SSID=A17LAQosEpzBE-NBP; APISID=vcGjFFB9PP-aTEaA/Ar4Mz4WNryKRF2F8P; SAPISID=UcyaO9ZOKzrZvLh5/Ag0uSFkdxwk_ma_Qh; __Secure-HSID=Aw9jMyJqY1_fJdP4n; __Secure-SSID=A17LAQosEpzBE-NBP; __Secure-APISID=vcGjFFB9PP-aTEaA/Ar4Mz4WNryKRF2F8P; __Secure-3PAPISID=UcyaO9ZOKzrZvLh5/Ag0uSFkdxwk_ma_Qh; ACCOUNT_CHOOSER=AFx_qI67PnmZA1QQiG3FA0JVn9dKCyyN_r3oC7iBhgk4oK5MUe6x697rRyaBHYdU2Nt2Yl7cZhAymV9FkyNSZBB-wzgd5Lc_74W6B5wWsWsoy50oR1w7vVxnXsNx9kvOxg4HnP-89_Stw7LwficZZ6PVt8WqI0v01QITKFBcFaS0LnhVR7doQG0iRqpwRxmHV1JH6YQfNe7Fe5y9vkTdjItqtbXKkhu6kRvQ9G5ANBXrL6hVg0_GXPwH17lEHfqnWunzd2fw7RD3khTxqb51Mj2CYoshCM2CWOD72FJn16M-OUC6lHeYX0gbLnSfUsPR-kY0a9rqV0pi; LSID=lso|o.mail.google.com|s.RU|s.blogger|s.youtube:uAcbCjo2Xrr3ul9gwS64RHA442vhoMCONB3a2I1ToClMoY3OediYwSx1ITtA67bOHoL-qA.; __Host-3PLSID=lso|o.mail.google.com|s.RU|s.blogger|s.youtube:uAcbCjo2Xrr3ul9gwS64RHA442vhoMCONB3a2I1ToClMoY3OAFk2bEevUzvZZWBDj-PbeQ.; GAPS=1:xttJ9fycOvQUG0G3w1wakshA-fbzOfPR0cKie5XrsGCCzJ4pPjfsjt29KHEiEUntRvypEflUs2qrSt-AB0eGX0A2gxLUcg:BLvHWwthoz6mbf_6; SEARCH_SAMESITE=CgQImI8B; SID=vQcbClwjt_R2r4-gzX_is6cA6vIsMZKjqmAqc-RPrTkIhI817X45o1oOubYK0IVdY6LtIg.; __Secure-3PSID=vQcbClwjt_R2r4-gzX_is6cA6vIsMZKjqmAqc-RPrTkIhI81hG70OlwJkrK552nFRrTyiw.; NID=201=qu0rPeTgBsBx9_qzLR87gsHO4dEqQuRF5-MsKX-poW3s7vicw1lzLRuX9-5m2Y-o9FPXFXHa8C726knzOmwd9NkYoAwEg2AWl99GlwYiV3L0R8zx1zg27-CbsgCZ_J0UHhmhIDHXWl_YgewAFig1-ewng3p_LYIhk-hYU3NSsLAwFh5bAM-t5lPQegxFNmvXdrOt4wVLOAwaCCi2QMlwesq-eklVITL1xwTqY-aLqksisHxGbBUqWFFWLlesL1pd_hF3vIUNVwedyck; 1P_JAR=2020-03-27-18; SIDCC=AJi4QfERunXWkEH6_7TamNFdfA42RPbtt83bQoVTSR8Txh4bO9Cxeeqs28IM2pCD5sndIw46VTBA
+

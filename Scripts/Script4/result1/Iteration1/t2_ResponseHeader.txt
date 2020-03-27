@@ -1,7 +1,8 @@
 HTTP/1.1 200 OK
-Date: Wed, 25 Mar 2020 11:47:24 GMT
+Date: Fri, 27 Mar 2020 19:17:00 GMT
 Server: Apache/2.2.21 (Win32)
 Expires: 5s
+Set-Cookie: MTUserInfo=firstName&Paul&address2&Manchester&username&player1&hash&113&lastName&Pogba%0A&address1&Pogba%20Street&creditCard&&expDate&%0A; path=/
 Keep-Alive: timeout=5, max=97
 Connection: Keep-Alive
 Transfer-Encoding: chunked

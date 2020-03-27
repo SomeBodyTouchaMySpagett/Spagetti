@@ -51,13 +51,14 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="1_transaction_Login__*delimiter*__2_transaction_Flights__*delimiter*__3_transaction_Flight_Info__*delimiter*__4_transaction_Select_Time__*delimiter*__5_transaction_Payment__*delimiter*__6_transaction_Itinerary__*delimiter*__7_transaction_Logoff__*delimiter*__0_transaction_Script_2"
+Order="transaction_Login-Buy-Itinerary-Exit__*delimiter*__1_transaction_Login__*delimiter*__2_transaction_Flights__*delimiter*__3_transaction_Flight_Info__*delimiter*__4_transaction_Select_Time__*delimiter*__5_transaction_Payment__*delimiter*__6_transaction_Itinerary__*delimiter*__7_transaction_Logoff"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
 LastReplayedRunName=result1
 ActiveRunName=result1
 [Transactions]
+transaction_Login-Buy-Itinerary-Exit=
 1_transaction_Login=
 2_transaction_Flights=
 3_transaction_Flight_Info=
@@ -65,4 +66,3 @@ ActiveRunName=result1
 5_transaction_Payment=
 6_transaction_Itinerary=
 7_transaction_Logoff=
-0_transaction_Script_2=

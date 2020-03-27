@@ -1,758 +1,605 @@
-[API Trapper      (1ee4:17e8)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
-[API Trapper      (1c20: 3fc)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
-[API Trapper      ( dc4:1020)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
-[API Trapper      (1a80:2128)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
-[Network Analyzer (1a80: 620)] ------------------------------------------------------------------------------------------
-[Network Analyzer (1a80: 620)] Load Network Traffic Analyzers:
-[Network Analyzer (1a80: 620)]     Analyzer Module: WPLUS (value=)
-[Network Analyzer (1a80: 620)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
-[Network Analyzer (1a80: 620)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
-[Network Analyzer (1a80: 620)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
-[Network Analyzer (1a80: 620)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
-[Network Analyzer (1a80: 620)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
-[Network Analyzer (1a80: 620)] ------------------------------------------------------------------------------------------
-[Network Analyzer (1a80:178c)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 64.233.162.84:443   (Service=)  (Sid=  1)  PROXIED!
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 64.233.164.95:443   (Service=)  (Sid=  2)  PROXIED!
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 64.233.162.138:443   (Service=)  (Sid=  3)  PROXIED!
-[Network Analyzer (1a80: 398)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Network Analyzer (1a80:1cd0)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Network Analyzer (1a80:1804)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Net An. Warning  (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Warning  (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Warning  (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Error    (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Error    (1a80:1804)] SSLAccept(ssl_id = 430401643792 = 0000006435EFE510) Failed, ctx = 0000006435EFF4B0, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+[API Trapper      (11e0: 914)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      (16bc: 53c)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      (11ac:1e0c)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      (1cf0:1cbc)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Network Analyzer (1cf0:1d5c)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1cf0:1d5c)] Load Network Traffic Analyzers:
+[Network Analyzer (1cf0:1d5c)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (1cf0:1d5c)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (1cf0:1d5c)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (1cf0:1d5c)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (1cf0:1d5c)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (1cf0:1d5c)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (1cf0:1d5c)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1cf0: 580)] Address lookup for Admin = 192.168.1.3
+[Network Analyzer (1cf0:1d5c)] Address lookup for Admin = 192.168.1.3
+[Network Analyzer (1cf0:1d5c)] Request Connection: Remote Server @ 173.194.220.84:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (1cf0:1d5c)] Address lookup for Admin = 192.168.1.3
+[Network Analyzer (1cf0:1d5c)] Request Connection: Remote Server @ 173.194.221.95:443   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (1cf0:1d5c)] Address lookup for Admin = 192.168.1.3
+[Network Analyzer (1cf0:1d5c)] Request Connection: Remote Server @ 173.194.221.113:443   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (1cf0:1e38)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (1cf0:1a94)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (1cf0:1a7c)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (1cf0:1d5c)] Address lookup for Admin = 192.168.1.3
+[Network Analyzer (1cf0:1d5c)] Request Connection: Remote Server @ 64.233.165.94:443   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (1cf0:1d5c)] Address lookup for Admin = 192.168.1.3
+[Network Analyzer (1cf0:1d5c)] Request Connection: Remote Server @ 173.194.221.94:443   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (1cf0:1d5c)] Address lookup for Admin = 192.168.1.3
+[Network Analyzer (1cf0:1d5c)] Request Connection: Remote Server @ 173.194.221.94:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (1cf0:102c)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (1cf0:1bdc)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (1cf0:1010)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (1cf0:1a7c)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1cf0:1e38)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1cf0:102c)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1cf0:1d5c)] Address lookup for Admin = 192.168.1.3
+[Network Analyzer (1cf0:1a94)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1cf0:1d5c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (1cf0:1bdc)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (1cf0: 580)] "GET /analytics.js"   
+[Network Analyzer (1cf0: 580)]   (Sid:  3) Client -> Server @ : 438 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid:  1) Client -> Server @ : 2264 bytes (SSL)(Service=HTTP)
+[Web Request      (1cf0: 580)] "GET /WebTours/"   
+[Network Analyzer (1cf0: 580)]   (Sid:  7) Client -> Server @ : 549 bytes (Service=HTTP)
+[Network Analyzer (1cf0:1010)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (1cf0: 580)] "POST /ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard"   
+[Network Analyzer (1cf0: 580)]   (Sid:  1) Client -> Server @ : 1 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid:  7) Server -> Client : 664 bytes  (Service=HTTP)
+[Web Request      (1cf0: 580)] "POST /oauth2/v4/token"   
+[Network Analyzer (1cf0: 580)]   (Sid:  2) Client -> Server @ : 649 bytes (SSL)(Service=HTTP)
+[Web Request      (1cf0: 580)] "GET /chrome-variations/seed?osname=win&channel=stable&milestone=80"   
+[Network Analyzer (1cf0: 580)]   (Sid:  4) Client -> Server @ : 425 bytes (SSL)(Service=HTTP)
+[Web Request      (1cf0: 580)] "GET /autofill/hourly/bins.json"   
+[Network Analyzer (1cf0: 580)]   (Sid:  5) Client -> Server @ : 301 bytes (SSL)(Service=HTTP)
+[Web Request      (1cf0: 580)] "GET /autofill/weekly/merchants.json"   
+[Network Analyzer (1cf0: 580)]   (Sid:  6) Client -> Server @ : 306 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid:  3) Server -> Client : 324 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid:  4) Server -> Client : 356 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0:1d5c)] Address lookup for Admin = 192.168.1.3
+[Network Analyzer (1cf0: 580)]   (Sid:  6) Server -> Client : 672 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid:  5) Server -> Client : 661 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid:  2) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid:  2) Server -> Client : 392 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid:  2) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid:  1) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid:  1) Server -> Client : 357 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid:  1) Server -> Client : 43 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0:1d5c)] Request Connection: Remote Server @ 173.194.221.95:443   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (1cf0: 580)]   (Sid:  1) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Web Request      (1cf0: 580)] "POST /oauth2/v4/token"   
+[Network Analyzer (1cf0: 580)]   (Sid:  2) Client -> Server @ : 698 bytes (SSL)(Service=HTTP)
+[Web Request      (1cf0: 580)] "GET /WebTours/header.html"   
+[Network Analyzer (1cf0: 580)]   (Sid:  7) Client -> Server @ : 586 bytes (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid:  7) Server -> Client : 1007 bytes  (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid:  2) Server -> Client : 1124 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid:  2) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: ef4)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (1cf0: ef4)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1cf0:1d5c)] Address lookup for Admin = 192.168.1.3
+[Network Analyzer (1cf0:1d5c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (1cf0:1d5c)] Address lookup for Admin = 192.168.1.3
+[Web Request      (1cf0: 580)] "GET /cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer (1cf0: 580)]   (Sid:  9) Client -> Server @ : 597 bytes (Service=HTTP)
+[Network Analyzer (1cf0:1d5c)] Request Connection: Remote Server @ 64.233.162.94:443   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer (1cf0:1d5c)] Address lookup for Admin = 192.168.1.3
+[Network Analyzer (1cf0:1d5c)] Request Connection: Remote Server @ 64.233.162.94:443   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (1cf0:1d5c)] Address lookup for Admin = 192.168.1.3
+[Network Analyzer (1cf0: 580)]   (Sid:  9) Server -> Client : 1021 bytes  (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid:  9) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (1cf0:1d5c)] Request Connection: Remote Server @ 64.233.165.95:443   (Service=)  (Sid= 12)  PROXIED!
+[Web Request      (1cf0: 580)] "GET /WebTours/images/hp_logo.png"   
+[Network Analyzer (1cf0: 580)]   (Sid:  9) Client -> Server @ : 488 bytes (Service=HTTP)
+[Web Request      (1cf0: 580)] "GET /WebTours/images/webtours.png"   
+[Network Analyzer (1cf0: 580)]   (Sid:  7) Client -> Server @ : 489 bytes (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid:  7) Server -> Client : 4486 bytes  (Service=HTTP)
+[Network Analyzer (1cf0:1df0)]   (Sid: 10) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (1cf0: 580)]   (Sid:  9) Server -> Client : 898 bytes  (Service=HTTP)
+[Web Request      (1cf0: 580)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (1cf0: 580)]   (Sid:  7) Client -> Server @ : 638 bytes (Service=HTTP)
+[Web Request      (1cf0: 580)] "GET /WebTours/home.html"   
+[Network Analyzer (1cf0: 580)]   (Sid:  9) Client -> Server @ : 634 bytes (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid:  9) Server -> Client : 1659 bytes  (Service=HTTP)
+[Web Request      (1cf0: 580)] "GET /r/collect?v=1&_v=j81&a=175079766&t=pageview&_s=1&dl=chrome-extension%3A%2F%2Fhflefjhkfeiaignkclmphmokmmbhbhik%2F_generated_background_page.html&dp=%2Fbackground%2F1.5.21%2FOn&ul=ru-ru&de=UTF-8&sd=24-bit&sr=1280x720&vp=&je=0&_u=QACAAEAB~&jid=1243174395&gjid=1060386558&cid=557659239.1548187056&tid=UA-93290101-2&_gid=513539985.1584803240&_r=1&cd1=1.5.21&cd2=On&z=1204945862"   
+[Network Analyzer (1cf0: 580)]   (Sid:  3) Client -> Server @ : 783 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1cf0:1df0)]   (Sid: 10) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1cf0: 580)]   (Sid:  3) Server -> Client : 1142 bytes (SSL) (Service=HTTP)
+[Web Request      (1cf0: 580)] "GET /safebrowsing/csd/client_model_v5_variation_0.pb"   
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Client -> Server @ : 323 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid:  7) Server -> Client : 1743 bytes  (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid:  7) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (1cf0: 804)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (1cf0:1d5c)] Address lookup for Admin = 192.168.1.3
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0:1d5c)] Request Connection: Remote Server @ 173.194.222.157:443   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 804)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 393 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Web Request      (1cf0: 580)] "GET /safebrowsing/csd/client_model_v5_ext_variation_0.pb"   
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Client -> Server @ : 327 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Web Request      (1cf0: 580)] "GET /WebTours/images/mer_login.gif"   
+[Network Analyzer (1cf0: 580)]   (Sid:  7) Client -> Server @ : 520 bytes (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid:  7) Server -> Client : 976 bytes  (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0:1d5c)] Address lookup for Admin = 192.168.1.3
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0:1e90)]   (Sid: 12) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0:1d5c)] Request Connection: Remote Server @ 173.194.73.95:443   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1189 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0:1d5c)] Address lookup for Admin = 192.168.1.3
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0:1d5c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Server -> Client : 55 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 392 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0:1e90)]   (Sid: 12) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Web Request      (1cf0: 580)] "POST /v1/issuetoken"   
+[Network Analyzer (1cf0: 580)]   (Sid: 12) Client -> Server @ : 1357 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1189 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Web Request      (1cf0: 580)] "GET /favicon.ico"   
+[Network Analyzer (1cf0:109c)]   (Sid: 13) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (1cf0: 580)]   (Sid:  7) Client -> Server @ : 489 bytes (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid:  7) Server -> Client : 424 bytes  (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Server -> Client : 55 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 12) Server -> Client : 1053 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0:109c)]   (Sid: 13) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1cf0: 580)]   (Sid: 12) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Web Request      (1cf0: 580)] "GET /r/collect?v=1&aip=1&t=dc&_r=3&tid=UA-93290101-2&cid=557659239.1548187056&jid=1243174395&_gid=513539985.1584803240&gjid=1060386558&_v=j81&z=1204945862"   
+[Network Analyzer (1cf0: 580)]   (Sid: 13) Client -> Server @ : 637 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 13) Server -> Client : 1119 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0:1a0c)]   (Sid: 14) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (1cf0:1d5c)] Address lookup for Admin = 192.168.1.3
+[Network Analyzer (1cf0:1d5c)] Request Connection: Remote Server @ 64.233.165.103:443   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer (1cf0:1a0c)]   (Sid: 14) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (1cf0: 580)] "GET /v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRIlCU35IjnBRbgwEgsN541ADhIAGgAiABILDc5BTHoSABoAIgAaAA==?alt=proto"   
+[Network Analyzer (1cf0: 580)]   (Sid: 14) Client -> Server @ : 556 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 14) Server -> Client : 642 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0:1978)]   (Sid: 16) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (1cf0:1978)]   (Sid: 16) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (1cf0: 580)] "GET /ads/ga-audiences?v=1&aip=1&t=sr&_r=4&tid=UA-93290101-2&cid=557659239.1548187056&jid=1243174395&_v=j81&z=1204945862"   
+[Network Analyzer (1cf0: 580)]   (Sid: 16) Client -> Server @ : 1541 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 16) Server -> Client : 995 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0:1d5c)] Address lookup for Admin = 192.168.1.3
+[Network Analyzer (1cf0:1d5c)] Request Connection: Remote Server @ 173.194.222.94:443   (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer (1cf0:1d5c)] Address lookup for Admin = 192.168.1.3
+[Network Analyzer (1cf0:1d5c)] Request Connection: Remote Server @ 64.233.161.113:443   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer (1cf0:1868)]   (Sid: 17) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (1cf0:1868)]   (Sid: 17) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (1cf0: 580)] "POST /oauth2/v4/token"   
+[Network Analyzer (1cf0: 580)]   (Sid:  2) Client -> Server @ : 706 bytes (SSL)(Service=HTTP)
+[Web Request      (1cf0: 580)] "GET /ads/ga-audiences?v=1&aip=1&t=sr&_r=4&tid=UA-93290101-2&cid=557659239.1548187056&jid=1243174395&_v=j81&z=1204945862&slf_rd=1&random=893192981"   
+[Network Analyzer (1cf0: 580)]   (Sid: 17) Client -> Server @ : 1343 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1cf0:1d5c)] Address lookup for Admin = 192.168.1.3
+[Network Analyzer (1cf0:1d5c)] Request Connection: Remote Server @ 173.194.222.94:443   (Service=)  (Sid= 19)  PROXIED!
+[Network Analyzer (1cf0:1d5c)] Address lookup for Admin = 192.168.1.3
+[Network Analyzer (1cf0: 580)]   (Sid:  2) Server -> Client : 960 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid:  2) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 17) Server -> Client : 668 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0:1d5c)] Request Connection: Remote Server @ 108.177.14.188:5228   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer (1cf0:1d5c)] Address lookup for Admin = 192.168.1.3
+[Network Analyzer (1cf0:1094)]   (Sid: 18) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (1cf0:1d5c)] Request Connection: Remote Server @ 64.233.161.100:443   (Service=)  (Sid= 21)  PROXIED!
+[Network Analyzer (1cf0:1094)]   (Sid: 18) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1cf0: 78c)]   (Sid: 19) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (1cf0: 78c)] SSLAccept(ssl_id = 1096529105456 = 000000FF4E3A5230) Failed, ctx = 000000FF4E3A7490, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
 error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
 " 
-[Net An. Error    (1a80:1804)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Network Analyzer (1a80:1e80)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80:23b8)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80:1e80)] Request Connection: Remote Server @ 216.239.32.29:80   (Service=)  (Sid=  4)  PROXIED!
-[Web Request      (1a80:178c)] "GET /gsr2/GTS1O1.crt"   
-[Network Analyzer (1a80:178c)]   (Sid:  4) Client -> Server @ : 123 bytes (Service=HTTP)
-[Network Analyzer (1a80:23b8)] Request Connection: Remote Server @ 216.239.32.29:80   (Service=)  (Sid=  5)  PROXIED!
-[Web Request      (1a80:178c)] "GET /gsr2/GTS1O1.crt"   
-[Network Analyzer (1a80:178c)]   (Sid:  5) Client -> Server @ : 123 bytes (Service=HTTP)
-[Network Analyzer (1a80:178c)]   (Sid:  4) Server -> Client : 1430 bytes  (Service=HTTP)
-[Network Analyzer (1a80:178c)]   (Sid:  5) Server -> Client : 1430 bytes  (Service=HTTP)
-[Network Analyzer (1a80:178c)]   (Sid:  4) Server -> Client : 39 bytes  (Service=HTTP)
-[Network Analyzer (1a80:178c)]   (Sid:  5) Server -> Client : 37 bytes  (Service=HTTP)
-[Network Analyzer (1a80:178c)]   (Sid:  3) Connection Terminated (by Client)
-[Net An. Warning  (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Warning  (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Warning  (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Error    (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Error    (1a80:1cd0)] SSLAccept(ssl_id = 430401646192 = 0000006435EFEE70) Failed, ctx = 0000006435EFFE10, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+[Net An. Error    (1cf0: 78c)]   (Sid: 19) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1cf0:1a88)]   (Sid: 20) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (1cf0:1a88)]   (Sid: 20) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (1cf0: 580)] "GET /service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromecrx&prodchannel=&prodversion=80.0.3987.149&lang=ru&acceptformat=crx3&x=id%3Dmgndgikekgjfcpckkfioiadnlibdjbkf%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26ping%3Dr%253D73%2526e%253D1"   
+[Network Analyzer (1cf0: 580)]   (Sid: 18) Client -> Server @ : 731 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 20) Client -> Server @ : 192 bytes (SSL)
+[Network Analyzer (1cf0: 580)]   (Sid: 20) Server -> Client : 1 bytes (SSL)
+[Network Analyzer (1cf0: 580)]   (Sid: 20) Server -> Client : 66 bytes (SSL)
+[Network Analyzer (1cf0: 580)]   (Sid: 20) Server -> Client : 12 bytes (SSL)
+[Network Analyzer (1cf0: 580)]   (Sid: 18) Server -> Client : 843 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 18) Server -> Client : 358 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0:1f24)]   (Sid: 21) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (1cf0:1f24)]   (Sid: 21) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (1cf0: 580)] "POST /invalidation/android/request/CHES4QEStwFBUEE5MWJITmEyb1dCN0VDek5US3NEXzd4UlZBblNwSWRqdGhtYzF4ZmljTC1HbEFCTEpYWFk1bFZlTnkwRlJfeHB5TnRvdXkyMEZDMTRac2x5N1RySmZSZ1ZGYkczM2xpdktub2tIRkhWallNQ2N4MDVSUlkxOS1mSllQQWFyZmlIZGk2WmZGRnZtSFRiTjAzanhZNDB4ZlJONE1VWVBSRHRheWtDY0RGa1pmQTcxTlp2X01kTmcaACoCCAAyH2NvbS5nb29nbGUuY2hyb21lLmludmFsaWRhdGlvbnM"   
+[Network Analyzer (1cf0: 580)]   (Sid: 21) Client -> Server @ : 1277 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 21) Server -> Client : 284 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 20) Server -> Client : 298 bytes (SSL)
+[Network Analyzer (1cf0: 580)]   (Sid:  9) Connection Terminated (by Server)
+[Network Analyzer (1cf0: 580)]   (Sid: 19) Connection Terminated (by Client)
+[Network Analyzer (1cf0: 580)]   (Sid:  7) Connection Terminated (by Server)
+[User action                 ] StartTransactionEvent 1_transaction_Login_Buy_Itinerary_Home [User action                 ] StartTransactionEvent 1_transaction_Login [Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[API Trapper      (1b68: 39c)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Network Analyzer (1cf0: 580)]   (Sid: 15) Connection Terminated (by Client)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (1cf0:1d5c)] Address lookup for Admin = 192.168.1.3
+[Network Analyzer (1cf0:1d5c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 22)  PROXIED!
+[Network Analyzer (1cf0:1d5c)] Address lookup for Admin = 192.168.1.3
+[Web Request      (1cf0: 580)] "POST /cgi-bin/login.pl"   
+[Network Analyzer (1cf0: 580)]   (Sid: 22) Client -> Server @ : 884 bytes (Service=HTTP)
+[Network Analyzer (1cf0:1d5c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 23)  PROXIED!
+[Network Analyzer (1cf0: 580)]   (Sid: 22) Server -> Client : 847 bytes  (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 22) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (1cf0: 580)] "GET /cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer (1cf0: 580)]   (Sid: 22) Client -> Server @ : 743 bytes (Service=HTTP)
+[Web Request      (1cf0: 580)] "GET /cgi-bin/login.pl?intro=true"   
+[Network Analyzer (1cf0: 580)]   (Sid: 23) Client -> Server @ : 738 bytes (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 23) Server -> Client : 1154 bytes  (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 23) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 22) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 22) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (1cf0: 580)] "GET /WebTours/images/flights.gif"   
+[Network Analyzer (1cf0: 580)]   (Sid: 22) Client -> Server @ : 638 bytes (Service=HTTP)
+[Web Request      (1cf0: 580)] "GET /WebTours/images/itinerary.gif"   
+[Network Analyzer (1cf0: 580)]   (Sid: 23) Client -> Server @ : 640 bytes (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 23) Server -> Client : 1030 bytes  (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 22) Server -> Client : 1023 bytes  (Service=HTTP)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (1cf0: 580)]   (Sid: 23) Connection Terminated (by Server)
+[Network Analyzer (1cf0: 580)]   (Sid: 22) Connection Terminated (by Server)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (1cf0:1d5c)] Address lookup for Admin = 192.168.1.3
+[Network Analyzer (1cf0:1d5c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 24)  PROXIED!
+[Network Analyzer (1cf0:1d5c)] Address lookup for Admin = 192.168.1.3
+[Web Request      (1cf0: 580)] "GET /WebTours/images/signoff.gif"   
+[Network Analyzer (1cf0: 580)]   (Sid: 24) Client -> Server @ : 638 bytes (Service=HTTP)
+[Network Analyzer (1cf0:1d5c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 25)  PROXIED!
+[Network Analyzer (1cf0: 580)]   (Sid: 24) Server -> Client : 1049 bytes  (Service=HTTP)
+[Web Request      (1cf0: 580)] "GET /WebTours/images/in_home.gif"   
+[Network Analyzer (1cf0: 580)]   (Sid: 25) Client -> Server @ : 638 bytes (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 25) Server -> Client : 986 bytes  (Service=HTTP)
+[User action                 ] EndTransactionEvent 1_transaction_Login [Network Analyzer (1cf0: 580)]   (Sid: 24) Connection Terminated (by Server)
+[Network Analyzer (1cf0: 580)]   (Sid: 25) Connection Terminated (by Server)
+[Network Analyzer (1cf0:1d5c)] Address lookup for Admin = 192.168.1.3
+[Network Analyzer (1cf0:1d5c)] Request Connection: Remote Server @ 173.194.222.94:443   (Service=)  (Sid= 26)  PROXIED!
+[Network Analyzer (1cf0: 9c4)]   (Sid: 26) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (1cf0: 9c4)] SSLAccept(ssl_id = 1096529110256 = 000000FF4E3A64F0) Failed, ctx = 000000FF4E3A7490, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
 error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
 " 
-[Net An. Error    (1a80: 398)] SSLAccept(ssl_id = 430401645392 = 0000006435EFEB50) Failed, ctx = 0000006435EFE830, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+[Net An. Error    (1cf0: 9c4)]   (Sid: 26) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1cf0: 580)]   (Sid: 26) Connection Terminated (by Client)
+[Network Analyzer (1cf0:1d5c)] Address lookup for Admin = 192.168.1.3
+[Network Analyzer (1cf0:1d5c)] Request Connection: Remote Server @ 173.194.222.94:80   (Service=)  (Sid= 27)  PROXIED!
+[Web Request      (1cf0: 580)] "POST /service/update2/json?cup2key=9:2285440355&cup2hreq=d928ac989fd4c951dc9b29772e635be9fcea95425c3ed75d0fd96223568bc565"   
+[Network Analyzer (1cf0: 580)]   (Sid: 27) Client -> Server @ : 5793 bytes (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 27) Server -> Client : 1089 bytes  (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 27) Server -> Client : 640 bytes  (Service=HTTP)
+[Network Analyzer (1cf0:1d5c)] Address lookup for Admin = 192.168.1.3
+[Network Analyzer (1cf0:1d5c)] Request Connection: Remote Server @ 173.194.222.94:443   (Service=)  (Sid= 28)  PROXIED!
+[Network Analyzer (1cf0:19a4)]   (Sid: 28) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (1cf0:19a4)] SSLAccept(ssl_id = 1096529110256 = 000000FF4E3A64F0) Failed, ctx = 000000FF4E3A7490, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
 error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
 " 
-[Net An. Error    (1a80:1cd0)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Net An. Error    (1a80: 398)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  6)  PROXIED!
-[Web Request      (1a80:178c)] "GET /WebTours/"   
-[Network Analyzer (1a80:178c)]   (Sid:  6) Client -> Server @ : 549 bytes (Service=HTTP)
-[Network Analyzer (1a80:178c)]   (Sid:  6) Server -> Client : 667 bytes  (Service=HTTP)
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 173.194.221.94:443   (Service=)  (Sid=  7)  PROXIED!
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 173.194.221.94:443   (Service=)  (Sid=  8)  PROXIED!
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 108.177.14.94:443   (Service=)  (Sid=  9)  PROXIED!
-[Web Request      (1a80:178c)] "GET /WebTours/header.html"   
-[Network Analyzer (1a80:178c)]   (Sid:  6) Client -> Server @ : 586 bytes (Service=HTTP)
-[Network Analyzer (1a80:178c)]   (Sid:  6) Server -> Client : 1009 bytes  (Service=HTTP)
-[Network Analyzer (1a80:1af8)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Network Analyzer (1a80:2100)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Network Analyzer (1a80: ed0)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Network Analyzer (1a80:178c)]   (Sid:  2) Connection Terminated (by Client)
-[Network Analyzer (1a80:178c)]   (Sid:  1) Connection Terminated (by Client)
-[Net An. Warning  (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Warning  (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Warning  (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Error    (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 10)  PROXIED!
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 64.233.164.95:443   (Service=)  (Sid= 11)  PROXIED!
-[Net An. Error    (1a80:1af8)] SSLAccept(ssl_id = 430402886784 = 000000643602DC80) Failed, ctx = 000000643602DFA0, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80:2100)] SSLAccept(ssl_id = 430468347712 = 0000006439E9B740) Failed, ctx = 000000643602DFA0, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80:1af8)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Net An. Error    (1a80:2100)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Web Request      (1a80:178c)] "GET /gsr2/GTS1O1.crt"   
-[Network Analyzer (1a80:178c)]   (Sid:  4) Client -> Server @ : 123 bytes (Service=HTTP)
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 64.233.162.84:443   (Service=)  (Sid= 12)  PROXIED!
-[Web Request      (1a80:178c)] "GET /cgi-bin/welcome.pl?signOff=true"   
-[Network Analyzer (1a80:178c)]   (Sid: 10) Client -> Server @ : 597 bytes (Service=HTTP)
-[Web Request      (1a80:178c)] "GET /WebTours/images/hp_logo.png"   
-[Network Analyzer (1a80:178c)]   (Sid:  6) Client -> Server @ : 488 bytes (Service=HTTP)
-[Network Analyzer (1a80:178c)]   (Sid:  6) Server -> Client : 899 bytes  (Service=HTTP)
-[Network Analyzer (1a80:178c)]   (Sid:  4) Server -> Client : 1469 bytes  (Service=HTTP)
-[Network Analyzer (1a80:178c)]   (Sid: 10) Server -> Client : 1083 bytes  (Service=HTTP)
-[Network Analyzer (1a80:178c)]   (Sid: 10) Server -> Client : 5 bytes  (Service=HTTP)
-[Network Analyzer (1a80:1018)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Network Analyzer (1a80:1784)]   (Sid: 12) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Network Analyzer (1a80:178c)]   (Sid:  7) Connection Terminated (by Client)
-[Network Analyzer (1a80:178c)]   (Sid:  8) Connection Terminated (by Client)
-[Net An. Warning  (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Warning  (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Warning  (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Error    (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Error    (1a80: ed0)] SSLAccept(ssl_id = 430403151056 = 000000643606E4D0) Failed, ctx = 0000006435EFFE10, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80: ed0)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Net An. Error    (1a80:1018)] SSLAccept(ssl_id = 430466971952 = 0000006439D4B930) Failed, ctx = 0000006435EFFE10, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80:1784)] SSLAccept(ssl_id = 430402888384 = 000000643602E2C0) Failed, ctx = 0000006435EFE830, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Net An. Error    (1a80:1018)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Net An. Error    (1a80:1784)]   (Sid: 12) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 13)  PROXIED!
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 64.233.164.95:443   (Service=)  (Sid= 14)  PROXIED!
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 173.194.222.94:443   (Service=)  (Sid= 15)  PROXIED!
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 173.194.222.94:443   (Service=)  (Sid= 16)  PROXIED!
-[Web Request      (1a80:178c)] "GET /WebTours/images/webtours.png"   
-[Network Analyzer (1a80:178c)]   (Sid: 13) Client -> Server @ : 489 bytes (Service=HTTP)
-[Network Analyzer (1a80:178c)]   (Sid: 13) Server -> Client : 4489 bytes  (Service=HTTP)
-[Web Request      (1a80:178c)] "GET /cgi-bin/nav.pl?in=home"   
-[Network Analyzer (1a80:178c)]   (Sid: 13) Client -> Server @ : 700 bytes (Service=HTTP)
-[Web Request      (1a80:178c)] "GET /WebTours/home.html"   
-[Network Analyzer (1a80:178c)]   (Sid: 10) Client -> Server @ : 696 bytes (Service=HTTP)
-[Network Analyzer (1a80:178c)]   (Sid: 10) Server -> Client : 1661 bytes  (Service=HTTP)
-[Network Analyzer (1a80:178c)]   (Sid: 13) Server -> Client : 3137 bytes  (Service=HTTP)
-[Network Analyzer (1a80: cf4)]   (Sid: 14) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Web Request      (1a80:178c)] "GET /WebTours/images/mer_login.gif"   
-[Network Analyzer (1a80:178c)]   (Sid: 10) Client -> Server @ : 582 bytes (Service=HTTP)
-[Network Analyzer (1a80:178c)]   (Sid: 13) Server -> Client : 5 bytes  (Service=HTTP)
-[Network Analyzer (1a80:178c)]   (Sid: 10) Server -> Client : 978 bytes  (Service=HTTP)
-[Net An. Error    (1a80: cf4)] SSLAccept(ssl_id = 430402886784 = 000000643602DC80) Failed, ctx = 0000006435EFFE10, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80: cf4)]   (Sid: 14) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Web Request      (1a80:178c)] "GET /favicon.ico"   
-[Network Analyzer (1a80:178c)]   (Sid: 10) Client -> Server @ : 551 bytes (Service=HTTP)
-[Network Analyzer (1a80:178c)]   (Sid: 10) Server -> Client : 424 bytes  (Service=HTTP)
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 64.233.161.139:443   (Service=)  (Sid= 17)  PROXIED!
-[Network Analyzer (1a80:172c)]   (Sid: 15) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Network Analyzer (1a80:1d40)]   (Sid: 16) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Web Request      (1a80:178c)] "GET /gsr2/GTS1O1.crt"   
-[Network Analyzer (1a80:178c)]   (Sid:  5) Client -> Server @ : 123 bytes (Service=HTTP)
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 18)  PROXIED!
-[Network Analyzer (1a80:178c)]   (Sid:  5) Server -> Client : 1430 bytes  (Service=HTTP)
-[Network Analyzer (1a80:178c)]   (Sid:  5) Server -> Client : 37 bytes  (Service=HTTP)
-[Net An. Error    (1a80:172c)] SSLAccept(ssl_id = 430466970352 = 0000006439D4B2F0) Failed, ctx = 0000006439D4AFD0, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80:1d40)] SSLAccept(ssl_id = 430466971152 = 0000006439D4B610) Failed, ctx = 0000006439D4AFD0, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80:172c)]   (Sid: 15) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Net An. Error    (1a80:1d40)]   (Sid: 16) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Network Analyzer (1a80:15d4)]   (Sid: 17) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Net An. Error    (1a80:15d4)] SSLAccept(ssl_id = 430467142688 = 0000006439D75420) Failed, ctx = 0000006439D75D80, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80:15d4)]   (Sid: 17) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Network Analyzer (1a80:178c)]   (Sid:  9) Connection Terminated (by Client)
-[Network Analyzer (1a80:178c)]   (Sid: 11) Connection Terminated (by Client)
-[Network Analyzer (1a80:178c)]   (Sid: 12) Connection Terminated (by Client)
-[Network Analyzer (1a80:178c)]   (Sid: 14) Connection Terminated (by Client)
-[Network Analyzer (1a80:178c)]   (Sid: 15) Connection Terminated (by Client)
-[Network Analyzer (1a80:178c)]   (Sid: 16) Connection Terminated (by Client)
-[Network Analyzer (1a80:178c)]   (Sid: 17) Connection Terminated (by Client)
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 64.233.161.139:443   (Service=)  (Sid= 19)  PROXIED!
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 64.233.164.95:443   (Service=)  (Sid= 20)  PROXIED!
-[Network Analyzer (1a80:1260)]   (Sid: 19) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Net An. Error    (1a80:1260)] SSLAccept(ssl_id = 430403151856 = 000000643606E7F0) Failed, ctx = 0000006439D75D80, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80:1260)]   (Sid: 19) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Network Analyzer (1a80:178c)]   (Sid:  6) Connection Terminated (by Server)
-[Network Analyzer (1a80:1644)]   (Sid: 20) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Net An. Error    (1a80:1644)] SSLAccept(ssl_id = 430403149456 = 000000643606DE90) Failed, ctx = 0000006435EFFE10, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80:1644)]   (Sid: 20) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Network Analyzer (1a80:178c)]   (Sid: 19) Connection Terminated (by Client)
-[Network Analyzer (1a80:178c)]   (Sid: 20) Connection Terminated (by Client)
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 64.233.164.95:443   (Service=)  (Sid= 21)  PROXIED!
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 64.233.162.84:443   (Service=)  (Sid= 22)  PROXIED!
-[Network Analyzer (1a80:1b24)]   (Sid: 21) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Net An. Error    (1a80:1b24)] SSLAccept(ssl_id = 430403151056 = 000000643606E4D0) Failed, ctx = 0000006435EFFE10, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80:1b24)]   (Sid: 21) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 64.233.161.100:443   (Service=)  (Sid= 23)  PROXIED!
-[Network Analyzer (1a80: d58)]   (Sid: 22) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Net An. Error    (1a80: d58)] SSLAccept(ssl_id = 430402874784 = 000000643602ADA0) Failed, ctx = 0000006435EFE830, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80: d58)]   (Sid: 22) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Network Analyzer (1a80:15c4)]   (Sid: 23) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Net An. Error    (1a80:15c4)] SSLAccept(ssl_id = 430468969648 = 0000006439F334B0) Failed, ctx = 0000006439D75D80, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80:15c4)]   (Sid: 23) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Network Analyzer (1a80:178c)]   (Sid: 21) Connection Terminated (by Client)
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[User action                 ] StartTransactionEvent 1_transaction_Login [Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 64.233.161.139:443   (Service=)  (Sid= 24)  PROXIED!
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 64.233.164.95:443   (Service=)  (Sid= 25)  PROXIED!
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80:178c)]   (Sid: 22) Connection Terminated (by Client)
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 108.177.14.94:443   (Service=)  (Sid= 26)  PROXIED!
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 64.233.162.188:5228   (Service=)  (Sid= 27)  PROXIED!
-[Network Analyzer (1a80:1534)]   (Sid: 24) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Net An. Error    (1a80:1534)] SSLAccept(ssl_id = 430402882784 = 000000643602CCE0) Failed, ctx = 0000006439D75D80, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80:1534)]   (Sid: 24) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Network Analyzer (1a80:178c)]   (Sid: 23) Connection Terminated (by Client)
-[Network Analyzer (1a80:2324)]   (Sid: 25) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Network Analyzer (1a80:1dac)]   (Sid: 26) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Web Request      (1a80:178c)] "GET /gsr2/GTS1O1.crt"   
-[Network Analyzer (1a80:178c)]   (Sid:  4) Client -> Server @ : 123 bytes (Service=HTTP)
-[Network Analyzer (1a80:178c)]   (Sid:  4) Server -> Client : 1469 bytes  (Service=HTTP)
-[Net An. Error    (1a80:2324)] SSLAccept(ssl_id = 430468975248 = 0000006439F34A90) Failed, ctx = 0000006435EFFE10, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80:2324)]   (Sid: 25) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Network Analyzer (1a80: 6d8)]   (Sid: 27) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Web Request      (1a80:178c)] "GET /gsr2/GTS1O1.crt"   
-[Network Analyzer (1a80:178c)]   (Sid:  5) Client -> Server @ : 123 bytes (Service=HTTP)
-[Network Analyzer (1a80:178c)]   (Sid:  5) Server -> Client : 1467 bytes  (Service=HTTP)
-[Web Request      (1a80:178c)] "GET /gsr2/GTS1O1.crt"   
-[Network Analyzer (1a80:178c)]   (Sid:  4) Client -> Server @ : 123 bytes (Service=HTTP)
-[Net An. Error    (1a80:1dac)] SSLAccept(ssl_id = 430402875584 = 000000643602B0C0) Failed, ctx = 0000006435EFFE10, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80:1dac)]   (Sid: 26) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Network Analyzer (1a80:178c)]   (Sid:  4) Server -> Client : 1469 bytes  (Service=HTTP)
-[Net An. Error    (1a80: 6d8)] SSLAccept(ssl_id = 430402888384 = 000000643602E2C0) Failed, ctx = 000000643602D640, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80: 6d8)]   (Sid: 27) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Network Analyzer (1a80:178c)]   (Sid: 24) Connection Terminated (by Client)
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 64.233.164.95:443   (Service=)  (Sid= 28)  PROXIED!
-[Network Analyzer (1a80:2150)]   (Sid: 28) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Net An. Error    (1a80:2150)] SSLAccept(ssl_id = 430467143488 = 0000006439D75740) Failed, ctx = 0000006435EFFE10, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80:2150)]   (Sid: 28) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Network Analyzer (1a80:178c)]   (Sid: 25) Connection Terminated (by Client)
-[Network Analyzer (1a80:178c)]   (Sid: 26) Connection Terminated (by Client)
-[Network Analyzer (1a80:178c)]   (Sid: 27) Connection Terminated (by Client)
-[Network Analyzer (1a80:178c)]   (Sid: 28) Connection Terminated (by Client)
-[Network Analyzer (1a80:178c)]   (Sid: 10) Connection Terminated (by Server)
-[Network Analyzer (1a80:178c)]   (Sid: 13) Connection Terminated (by Server)
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 64.233.164.95:443   (Service=)  (Sid= 29)  PROXIED!
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 173.194.222.94:443   (Service=)  (Sid= 30)  PROXIED!
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 64.233.161.100:443   (Service=)  (Sid= 31)  PROXIED!
-[Network Analyzer (1a80:186c)]   (Sid: 29) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Net An. Error    (1a80:186c)] SSLAccept(ssl_id = 430403148656 = 000000643606DB70) Failed, ctx = 0000006435EFFE10, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80:186c)]   (Sid: 29) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Network Analyzer (1a80:16f8)]   (Sid: 30) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Web Request      (1a80:178c)] "GET /gsr2/GTS1O1.crt"   
-[Network Analyzer (1a80:178c)]   (Sid:  5) Client -> Server @ : 123 bytes (Service=HTTP)
-[Network Analyzer (1a80:178c)]   (Sid:  5) Server -> Client : 1430 bytes  (Service=HTTP)
-[Network Analyzer (1a80:178c)]   (Sid:  5) Server -> Client : 37 bytes  (Service=HTTP)
-[Net An. Error    (1a80:16f8)] SSLAccept(ssl_id = 430402881184 = 000000643602C6A0) Failed, ctx = 0000006439D4AFD0, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80:16f8)]   (Sid: 30) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Network Analyzer (1a80:1678)]   (Sid: 31) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Net An. Error    (1a80:1678)] SSLAccept(ssl_id = 430402879584 = 000000643602C060) Failed, ctx = 0000006439D75D80, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80:1678)]   (Sid: 31) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Network Analyzer (1a80:178c)]   (Sid: 29) Connection Terminated (by Client)
-[Network Analyzer (1a80:178c)]   (Sid: 30) Connection Terminated (by Client)
-[Network Analyzer (1a80:178c)]   (Sid: 31) Connection Terminated (by Client)
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 64.233.161.139:443   (Service=)  (Sid= 32)  PROXIED!
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 64.233.164.95:443   (Service=)  (Sid= 33)  PROXIED!
-[Network Analyzer (1a80:176c)]   (Sid: 32) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Net An. Error    (1a80:176c)] SSLAccept(ssl_id = 430467141888 = 0000006439D75100) Failed, ctx = 0000006439D75D80, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80:176c)]   (Sid: 32) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 64.233.164.95:443   (Service=)  (Sid= 34)  PROXIED!
-[Web Request      (1a80:178c)] "POST /cgi-bin/login.pl"   
-[Network Analyzer (1a80:178c)]   (Sid: 18) Client -> Server @ : 949 bytes (Service=HTTP)
-[Network Analyzer (1a80:178c)]   (Sid: 18) Server -> Client : 863 bytes  (Service=HTTP)
-[Network Analyzer (1a80:178c)]   (Sid: 18) Server -> Client : 5 bytes  (Service=HTTP)
-[Web Request      (1a80:178c)] "GET /cgi-bin/nav.pl?page=menu&in=home"   
-[Network Analyzer (1a80:178c)]   (Sid: 18) Client -> Server @ : 821 bytes (Service=HTTP)
-[Network Analyzer (1a80:21a0)]   (Sid: 33) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Network Analyzer (1a80:178c)]   (Sid: 18) Server -> Client : 1744 bytes  (Service=HTTP)
-[Network Analyzer (1a80:178c)]   (Sid: 18) Server -> Client : 5 bytes  (Service=HTTP)
-[Network Analyzer (1a80:1b6c)]   (Sid: 34) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Network Analyzer (1a80:178c)]   (Sid: 32) Connection Terminated (by Client)
-[Net An. Warning  (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Warning  (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Warning  (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Error    (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Error    (1a80:21a0)] SSLAccept(ssl_id = 430403148656 = 000000643606DB70) Failed, ctx = 0000006435EFFE10, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80:1b6c)] SSLAccept(ssl_id = 430466968752 = 0000006439D4ACB0) Failed, ctx = 0000006435EFFE10, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80:21a0)]   (Sid: 33) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Net An. Error    (1a80:1b6c)]   (Sid: 34) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 64.233.164.95:443   (Service=)  (Sid= 35)  PROXIED!
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80:1630)]   (Sid: 35) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Network Analyzer (1a80:178c)]   (Sid: 33) Connection Terminated (by Client)
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 64.233.161.100:443   (Service=)  (Sid= 36)  PROXIED!
-[Net An. Error    (1a80:1630)] SSLAccept(ssl_id = 430401781152 = 0000006435F1FDA0) Failed, ctx = 0000006435EFFE10, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Web Request      (1a80:178c)] "GET /cgi-bin/login.pl?intro=true"   
-[Net An. Error    (1a80:1630)]   (Sid: 35) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Network Analyzer (1a80:178c)]   (Sid: 18) Client -> Server @ : 816 bytes (Service=HTTP)
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 64.233.162.84:443   (Service=)  (Sid= 37)  PROXIED!
-[Network Analyzer (1a80:178c)]   (Sid: 18) Server -> Client : 1153 bytes  (Service=HTTP)
-[Network Analyzer (1a80:178c)]   (Sid: 18) Server -> Client : 5 bytes  (Service=HTTP)
-[Network Analyzer (1a80: 438)]   (Sid: 36) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Network Analyzer (1a80: 418)]   (Sid: 37) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Network Analyzer (1a80:178c)]   (Sid: 34) Connection Terminated (by Client)
-[Network Analyzer (1a80:178c)]   (Sid: 35) Connection Terminated (by Client)
-[Net An. Warning  (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Warning  (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Warning  (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Error    (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Error    (1a80: 438)] SSLAccept(ssl_id = 430467141888 = 0000006439D75100) Failed, ctx = 0000006439D75D80, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80: 438)]   (Sid: 36) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 38)  PROXIED!
-[Web Request      (1a80:178c)] "GET /gsr2/GTS1O1.crt"   
-[Network Analyzer (1a80:178c)]   (Sid:  4) Client -> Server @ : 123 bytes (Service=HTTP)
-[Network Analyzer (1a80:178c)]   (Sid:  4) Server -> Client : 1430 bytes  (Service=HTTP)
-[Network Analyzer (1a80:178c)]   (Sid:  4) Server -> Client : 39 bytes  (Service=HTTP)
-[Net An. Warning  (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
-[Network Analyzer (1a80:178c)]   (Sid: 18) Connection Terminated (by Server)
-[Net An. Warning  (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Warning  (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Error    (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
-[Web Request      (1a80:178c)] "GET /WebTours/images/flights.gif"   
-[Network Analyzer (1a80:178c)]   (Sid: 38) Client -> Server @ : 716 bytes (Service=HTTP)
-[Net An. Error    (1a80: 418)] SSLAccept(ssl_id = 430402888384 = 000000643602E2C0) Failed, ctx = 0000006435EFE830, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80: 418)]   (Sid: 37) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Network Analyzer (1a80:178c)]   (Sid: 38) Server -> Client : 1026 bytes  (Service=HTTP)
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 39)  PROXIED!
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 64.233.164.95:443   (Service=)  (Sid= 40)  PROXIED!
-[Network Analyzer (1a80:1c48)]   (Sid: 40) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Network Analyzer (1a80:178c)]   (Sid: 36) Connection Terminated (by Client)
-[Net An. Warning  (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Warning  (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Warning  (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Error    (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Error    (1a80:1c48)] SSLAccept(ssl_id = 430403149456 = 000000643606DE90) Failed, ctx = 0000006435EFFE10, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80:1c48)]   (Sid: 40) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 41)  PROXIED!
-[Web Request      (1a80:178c)] "GET /WebTours/images/itinerary.gif"   
-[Network Analyzer (1a80:178c)]   (Sid: 39) Client -> Server @ : 718 bytes (Service=HTTP)
-[Network Analyzer (1a80:178c)]   (Sid: 39) Server -> Client : 1032 bytes  (Service=HTTP)
-[Network Analyzer (1a80:178c)]   (Sid: 37) Connection Terminated (by Client)
-[Net An. Warning  (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
-[Network Analyzer (1a80:178c)]   (Sid: 38) Connection Terminated (by Server)
-[Net An. Warning  (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Warning  (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Error    (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 64.233.164.95:443   (Service=)  (Sid= 42)  PROXIED!
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 43)  PROXIED!
-[Web Request      (1a80:178c)] "GET /WebTours/images/in_home.gif"   
-[Network Analyzer (1a80:178c)]   (Sid: 41) Client -> Server @ : 716 bytes (Service=HTTP)
-[Web Request      (1a80:178c)] "GET /WebTours/images/signoff.gif"   
-[Network Analyzer (1a80:178c)]   (Sid: 43) Client -> Server @ : 716 bytes (Service=HTTP)
-[Network Analyzer (1a80:178c)]   (Sid: 41) Server -> Client : 987 bytes  (Service=HTTP)
-[Network Analyzer (1a80:178c)]   (Sid: 43) Server -> Client : 1051 bytes  (Service=HTTP)
-[Network Analyzer (1a80:1c2c)]   (Sid: 42) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Net An. Error    (1a80:1c2c)] SSLAccept(ssl_id = 430467021728 = 0000006439D57BA0) Failed, ctx = 0000006435EFFE10, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80:1c2c)]   (Sid: 42) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 64.233.164.95:443   (Service=)  (Sid= 44)  PROXIED!
-[Network Analyzer (1a80: 2c0)]   (Sid: 44) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Net An. Error    (1a80: 2c0)] SSLAccept(ssl_id = 430402886784 = 000000643602DC80) Failed, ctx = 0000006435EFFE10, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80: 2c0)]   (Sid: 44) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 45)  PROXIED!
-[Network Analyzer (1a80:178c)]   (Sid: 40) Connection Terminated (by Client)
-[Network Analyzer (1a80:178c)]   (Sid: 42) Connection Terminated (by Client)
-[Network Analyzer (1a80:178c)]   (Sid: 44) Connection Terminated (by Client)
-[Network Analyzer (1a80:178c)]   (Sid: 39) Connection Terminated (by Server)
-[User action                 ] EndTransactionEvent 1_transaction_Login [Network Analyzer (1a80:178c)]   (Sid: 41) Connection Terminated (by Server)
-[Network Analyzer (1a80:178c)]   (Sid: 43) Connection Terminated (by Server)
-[API Trapper      (2224:1414)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 64.233.161.100:443   (Service=)  (Sid= 46)  PROXIED!
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 64.233.164.95:443   (Service=)  (Sid= 47)  PROXIED!
-[Network Analyzer (1a80:17d4)]   (Sid: 46) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Net An. Error    (1a80:17d4)] SSLAccept(ssl_id = 430402888384 = 000000643602E2C0) Failed, ctx = 0000006439D75D80, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80:17d4)]   (Sid: 46) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 64.233.162.188:443   (Service=)  (Sid= 48)  PROXIED!
-[Network Analyzer (1a80: d54)]   (Sid: 47) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Net An. Error    (1a80: d54)] SSLAccept(ssl_id = 430403149456 = 000000643606DE90) Failed, ctx = 0000006435EFFE10, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80: d54)]   (Sid: 47) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Network Analyzer (1a80: 56c)]   (Sid: 48) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Net An. Error    (1a80: 56c)] SSLAccept(ssl_id = 430403151056 = 000000643606E4D0) Failed, ctx = 0000006439D75D80, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80: 56c)]   (Sid: 48) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Network Analyzer (1a80:178c)]   (Sid: 46) Connection Terminated (by Client)
-[Network Analyzer (1a80:178c)]   (Sid: 47) Connection Terminated (by Client)
-[Network Analyzer (1a80:178c)]   (Sid: 48) Connection Terminated (by Client)
-[User action                 ] StartTransactionEvent 2_transaction_Flights [Network Analyzer (1a80:178c)]   (Sid: 45) Connection Terminated (by Client)
-[Net An. Warning  (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Warning  (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Warning  (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Error    (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 64.233.164.95:443   (Service=)  (Sid= 49)  PROXIED!
-[Network Analyzer (1a80: 4b8)]   (Sid: 49) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Net An. Warning  (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Warning  (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Warning  (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Error    (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 50)  PROXIED!
-[Net An. Error    (1a80: 4b8)] SSLAccept(ssl_id = 430467143488 = 0000006439D75740) Failed, ctx = 0000006435EFFE10, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80: 4b8)]   (Sid: 49) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Web Request      (1a80:178c)] "GET /cgi-bin/welcome.pl?page=search"   
-[Network Analyzer (1a80:178c)]   (Sid: 50) Client -> Server @ : 855 bytes (Service=HTTP)
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 108.177.14.94:443   (Service=)  (Sid= 51)  PROXIED!
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 64.233.165.95:443   (Service=)  (Sid= 52)  PROXIED!
-[Network Analyzer (1a80:178c)]   (Sid: 50) Server -> Client : 839 bytes  (Service=HTTP)
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80:178c)]   (Sid: 50) Server -> Client : 5 bytes  (Service=HTTP)
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 173.194.220.84:443   (Service=)  (Sid= 53)  PROXIED!
-[Web Request      (1a80:178c)] "GET /cgi-bin/nav.pl?page=menu&in=flights"   
-[Network Analyzer (1a80:178c)]   (Sid: 50) Client -> Server @ : 838 bytes (Service=HTTP)
-[Network Analyzer (1a80:153c)]   (Sid: 51) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Network Analyzer (1a80:178c)]   (Sid: 50) Server -> Client : 1744 bytes  (Service=HTTP)
-[Network Analyzer (1a80:178c)]   (Sid: 50) Server -> Client : 5 bytes  (Service=HTTP)
-[Network Analyzer (1a80: 58c)]   (Sid: 52) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Network Analyzer (1a80:1eb4)]   (Sid: 53) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Network Analyzer (1a80:178c)]   (Sid: 49) Connection Terminated (by Client)
-[Net An. Warning  (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Warning  (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Warning  (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Error    (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Error    (1a80: 58c)] SSLAccept(ssl_id = 430468346112 = 0000006439E9B100) Failed, ctx = 0000006435EFFE10, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80:1eb4)] SSLAccept(ssl_id = 430402873984 = 000000643602AA80) Failed, ctx = 0000006435EFE830, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80: 58c)]   (Sid: 52) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Net An. Error    (1a80:1eb4)]   (Sid: 53) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 54)  PROXIED!
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 64.233.161.100:443   (Service=)  (Sid= 55)  PROXIED!
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 64.233.165.95:443   (Service=)  (Sid= 56)  PROXIED!
-[Web Request      (1a80:178c)] "GET /cgi-bin/reservations.pl?page=welcome"   
-[Network Analyzer (1a80:178c)]   (Sid: 54) Client -> Server @ : 839 bytes (Service=HTTP)
-[Web Request      (1a80:178c)] "GET /gsr2/GTS1O1.crt"   
-[Network Analyzer (1a80:178c)]   (Sid:  5) Client -> Server @ : 123 bytes (Service=HTTP)
-[Web Request      (1a80:178c)] "GET /WebTours/images/in_flights.gif"   
-[Network Analyzer (1a80:178c)]   (Sid: 50) Client -> Server @ : 722 bytes (Service=HTTP)
-[Network Analyzer (1a80:178c)]   (Sid: 50) Server -> Client : 1025 bytes  (Service=HTTP)
-[Network Analyzer (1a80:178c)]   (Sid:  5) Server -> Client : 1468 bytes  (Service=HTTP)
-[Network Analyzer (1a80:178c)]   (Sid: 54) Server -> Client : 4235 bytes  (Service=HTTP)
-[Network Analyzer (1a80:178c)]   (Sid: 54) Server -> Client : 286 bytes  (Service=HTTP)
-[Network Analyzer (1a80:1cb0)]   (Sid: 55) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Network Analyzer (1a80: cf0)]   (Sid: 56) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Network Analyzer (1a80:178c)]   (Sid: 52) Connection Terminated (by Client)
-[Network Analyzer (1a80:178c)]   (Sid: 53) Connection Terminated (by Client)
-[Net An. Warning  (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Warning  (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Warning  (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Error    (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Error    (1a80:153c)] SSLAccept(ssl_id = 430403148656 = 000000643606DB70) Failed, ctx = 0000006435EFFE10, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80:1cb0)] SSLAccept(ssl_id = 430468344512 = 0000006439E9AAC0) Failed, ctx = 0000006439D75D80, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80:153c)]   (Sid: 51) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Net An. Error    (1a80:1cb0)]   (Sid: 55) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Net An. Error    (1a80: cf0)] SSLAccept(ssl_id = 430469628672 = 0000006439FD4300) Failed, ctx = 0000006435EFFE10, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Net An. Error    (1a80: cf0)]   (Sid: 56) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 57)  PROXIED!
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 64.233.165.95:443   (Service=)  (Sid= 58)  PROXIED!
-[Web Request      (1a80:178c)] "GET /WebTours/images/home.gif"   
-[Network Analyzer (1a80:178c)]   (Sid: 57) Client -> Server @ : 716 bytes (Service=HTTP)
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80:178c)]   (Sid: 57) Server -> Client : 987 bytes  (Service=HTTP)
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 108.177.14.94:80   (Service=)  (Sid= 59)  PROXIED!
-[Network Analyzer (1a80:178c)]   (Sid: 59) Client -> Server @ : 963 bytes (Service=HTTP)
-[Web Request      (1a80:178c)] "POST /service/update2/json?cup2key=9:1098886763&cup2hreq=32edf58a864a57756f85286fe2a45da610b31d7897a487733e681a741255b65c"   
-[Network Analyzer (1a80:178c)]   (Sid: 59) Client -> Server @ : 4830 bytes (Service=HTTP)
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 64.233.161.139:443   (Service=)  (Sid= 60)  PROXIED!
-[Web Request      (1a80:178c)] "GET /WebTours/images/button_next.gif"   
-[Network Analyzer (1a80:178c)]   (Sid: 57) Client -> Server @ : 724 bytes (Service=HTTP)
-[Network Analyzer (1a80:178c)]   (Sid: 57) Server -> Client : 1057 bytes  (Service=HTTP)
-[Network Analyzer (1a80:17b0)]   (Sid: 58) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Net An. Error    (1a80:17b0)] SSLAccept(ssl_id = 430469631872 = 0000006439FD4F80) Failed, ctx = 0000006435EFFE10, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80:17b0)]   (Sid: 58) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Network Analyzer (1a80:178c)]   (Sid: 59) Server -> Client : 1089 bytes  (Service=HTTP)
-[Network Analyzer (1a80:178c)]   (Sid: 59) Server -> Client : 635 bytes  (Service=HTTP)
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 6a8)]   (Sid: 60) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 108.177.14.94:443   (Service=)  (Sid= 61)  PROXIED!
-[Net An. Error    (1a80: 6a8)] SSLAccept(ssl_id = 430402876384 = 000000643602B3E0) Failed, ctx = 0000006439D75D80, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80: 6a8)]   (Sid: 60) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Network Analyzer (1a80:1b58)]   (Sid: 61) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Net An. Error    (1a80:1b58)] SSLAccept(ssl_id = 430469349376 = 0000006439F90000) Failed, ctx = 0000006435EFFE10, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80:1b58)]   (Sid: 61) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 62)  PROXIED!
-[Network Analyzer (1a80:178c)]   (Sid: 51) Connection Terminated (by Client)
-[Network Analyzer (1a80:178c)]   (Sid: 55) Connection Terminated (by Client)
-[Network Analyzer (1a80:178c)]   (Sid: 56) Connection Terminated (by Client)
-[Network Analyzer (1a80:178c)]   (Sid: 58) Connection Terminated (by Client)
-[Network Analyzer (1a80:178c)]   (Sid: 60) Connection Terminated (by Client)
-[Network Analyzer (1a80:178c)]   (Sid: 61) Connection Terminated (by Client)
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 64.233.161.139:443   (Service=)  (Sid= 63)  PROXIED!
-[Network Analyzer (1a80:178c)]   (Sid: 50) Connection Terminated (by Server)
-[Network Analyzer (1a80:1c80)]   (Sid: 63) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Network Analyzer (1a80:178c)]   (Sid: 54) Connection Terminated (by Server)
-[Net An. Error    (1a80:1c80)] SSLAccept(ssl_id = 430403149456 = 000000643606DE90) Failed, ctx = 0000006439D75D80, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80:1c80)]   (Sid: 63) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Network Analyzer (1a80:178c)]   (Sid: 63) Connection Terminated (by Client)
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 64.233.165.95:443   (Service=)  (Sid= 64)  PROXIED!
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 64.233.161.139:443   (Service=)  (Sid= 65)  PROXIED!
-[Network Analyzer (1a80:2004)]   (Sid: 64) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Net An. Error    (1a80:2004)] SSLAccept(ssl_id = 430468346112 = 0000006439E9B100) Failed, ctx = 0000006435EFFE10, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80:2004)]   (Sid: 64) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[User action                 ] EndTransactionEvent 2_transaction_Flights [Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 64.233.165.95:443   (Service=)  (Sid= 66)  PROXIED!
-[Network Analyzer (1a80: cb4)]   (Sid: 65) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Net An. Error    (1a80: cb4)] SSLAccept(ssl_id = 430403148656 = 000000643606DB70) Failed, ctx = 0000006439D75D80, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80: cb4)]   (Sid: 65) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Network Analyzer (1a80:23c4)]   (Sid: 66) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Net An. Error    (1a80:23c4)] SSLAccept(ssl_id = 430466968752 = 0000006439D4ACB0) Failed, ctx = 0000006435EFFE10, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80:23c4)]   (Sid: 66) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Network Analyzer (1a80:178c)]   (Sid: 64) Connection Terminated (by Client)
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80:178c)]   (Sid: 65) Connection Terminated (by Client)
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 64.233.162.95:443   (Service=)  (Sid= 67)  PROXIED!
-[Network Analyzer (1a80:178c)]   (Sid: 66) Connection Terminated (by Client)
-[Network Analyzer (1a80:1f2c)]   (Sid: 67) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Network Analyzer (1a80:178c)]   (Sid: 57) Connection Terminated (by Server)
-[Web Request      (1a80:178c)] "GET /gsr2/GTS1O1.crt"   
-[Network Analyzer (1a80:178c)]   (Sid:  4) Client -> Server @ : 123 bytes (Service=HTTP)
-[Network Analyzer (1a80:178c)]   (Sid:  4) Server -> Client : 1430 bytes  (Service=HTTP)
-[Network Analyzer (1a80:178c)]   (Sid:  4) Server -> Client : 39 bytes  (Service=HTTP)
-[Net An. Error    (1a80:1f2c)] SSLAccept(ssl_id = 430402874784 = 000000643602ADA0) Failed, ctx = 0000006435EFFE10, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80:1f2c)]   (Sid: 67) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 64.233.165.95:443   (Service=)  (Sid= 68)  PROXIED!
-[Network Analyzer (1a80: 828)]   (Sid: 68) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Net An. Error    (1a80: 828)] SSLAccept(ssl_id = 430468346112 = 0000006439E9B100) Failed, ctx = 0000006435EFFE10, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80: 828)]   (Sid: 68) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Network Analyzer (1a80:178c)]   (Sid: 67) Connection Terminated (by Client)
-[Network Analyzer (1a80:178c)]   (Sid: 68) Connection Terminated (by Client)
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 64.233.161.100:443   (Service=)  (Sid= 69)  PROXIED!
-[Network Analyzer (1a80:1c60)]   (Sid: 69) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Net An. Error    (1a80:1c60)] SSLAccept(ssl_id = 430403148656 = 000000643606DB70) Failed, ctx = 0000006439D75D80, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80:1c60)]   (Sid: 69) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80:178c)]   (Sid: 69) Connection Terminated (by Client)
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 64.233.165.95:443   (Service=)  (Sid= 70)  PROXIED!
-[Network Analyzer (1a80:1d78)]   (Sid: 70) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Net An. Error    (1a80:1d78)] SSLAccept(ssl_id = 430403151056 = 000000643606E4D0) Failed, ctx = 0000006435EFFE10, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Net An. Error    (1a80:1d78)]   (Sid: 70) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 64.233.165.95:443   (Service=)  (Sid= 71)  PROXIED!
-[Network Analyzer (1a80: 230)]   (Sid: 71) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Net An. Error    (1a80: 230)] SSLAccept(ssl_id = 430468346112 = 0000006439E9B100) Failed, ctx = 0000006435EFFE10, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80: 230)]   (Sid: 71) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Network Analyzer (1a80:178c)]   (Sid: 70) Connection Terminated (by Client)
-[Network Analyzer (1a80:178c)]   (Sid: 71) Connection Terminated (by Client)
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 64.233.161.100:443   (Service=)  (Sid= 72)  PROXIED!
-[Network Analyzer (1a80:2288)]   (Sid: 72) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Net An. Error    (1a80:2288)] SSLAccept(ssl_id = 430402884384 = 000000643602D320) Failed, ctx = 0000006439D75D80, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80:2288)]   (Sid: 72) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Network Analyzer (1a80:178c)]   (Sid: 62) Connection Terminated (by Client)
-[Network Analyzer (1a80:178c)]   (Sid: 72) Connection Terminated (by Client)
-[User action                 ] StartTransactionEvent 3_transaction_Logoff [Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 64.233.165.95:443   (Service=)  (Sid= 73)  PROXIED!
-[Network Analyzer (1a80:21bc)]   (Sid: 73) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Net An. Warning  (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Warning  (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Warning  (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Error    (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Error    (1a80:21bc)] SSLAccept(ssl_id = 430403151056 = 000000643606E4D0) Failed, ctx = 0000006435EFFE10, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80:21bc)]   (Sid: 73) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Network Analyzer (1a80:178c)]   (Sid: 73) Connection Terminated (by Client)
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 64.233.165.95:443   (Service=)  (Sid= 74)  PROXIED!
-[Net An. Warning  (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
-[Network Analyzer (1a80:1ab4)]   (Sid: 74) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Net An. Warning  (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Warning  (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Error    (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 75)  PROXIED!
-[Net An. Error    (1a80:1ab4)] SSLAccept(ssl_id = 430403149456 = 000000643606DE90) Failed, ctx = 0000006435EFFE10, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80:1ab4)]   (Sid: 74) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Web Request      (1a80:178c)] "GET /cgi-bin/welcome.pl?signOff=1"   
-[Network Analyzer (1a80:178c)]   (Sid: 75) Client -> Server @ : 856 bytes (Service=HTTP)
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 173.194.222.188:5228   (Service=)  (Sid= 76)  PROXIED!
-[Network Analyzer (1a80:178c)]   (Sid: 75) Server -> Client : 1083 bytes  (Service=HTTP)
-[Network Analyzer (1a80:178c)]   (Sid: 75) Server -> Client : 5 bytes  (Service=HTTP)
-[Network Analyzer (1a80:1ed8)]   (Sid: 76) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Web Request      (1a80:178c)] "GET /cgi-bin/nav.pl?in=home"   
-[Network Analyzer (1a80:178c)]   (Sid: 75) Client -> Server @ : 697 bytes (Service=HTTP)
-[Network Analyzer (1a80:178c)]   (Sid: 75) Server -> Client : 3137 bytes  (Service=HTTP)
-[Network Analyzer (1a80:178c)]   (Sid: 75) Server -> Client : 5 bytes  (Service=HTTP)
-[Network Analyzer (1a80:178c)]   (Sid: 74) Connection Terminated (by Client)
-[Net An. Warning  (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Warning  (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Warning  (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Error    (1a80: 620)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
-[Net An. Error    (1a80:1ed8)] SSLAccept(ssl_id = 430466970352 = 0000006439D4B2F0) Failed, ctx = 000000643602D640, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80:1ed8)]   (Sid: 76) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 77)  PROXIED!
-[Web Request      (1a80:178c)] "GET /WebTours/home.html"   
-[Network Analyzer (1a80:178c)]   (Sid: 77) Client -> Server @ : 795 bytes (Service=HTTP)
-[Network Analyzer (1a80:178c)]   (Sid: 77) Server -> Client : 196 bytes  (Service=HTTP)
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 64.233.161.100:443   (Service=)  (Sid= 78)  PROXIED!
-[Network Analyzer (1a80: 91c)]   (Sid: 78) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Net An. Error    (1a80: 91c)] SSLAccept(ssl_id = 430466971152 = 0000006439D4B610) Failed, ctx = 0000006439D75D80, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80: 91c)]   (Sid: 78) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Network Analyzer (1a80:178c)]   (Sid: 76) Connection Terminated (by Client)
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 79)  PROXIED!
-[Network Analyzer (1a80:178c)]   (Sid: 78) Connection Terminated (by Client)
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 64.233.161.100:443   (Service=)  (Sid= 80)  PROXIED!
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 64.233.161.100:443   (Service=)  (Sid= 81)  PROXIED!
-[Network Analyzer (1a80:2060)]   (Sid: 80) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Net An. Error    (1a80:2060)] SSLAccept(ssl_id = 430403148656 = 000000643606DB70) Failed, ctx = 0000006439D75D80, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80:2060)]   (Sid: 80) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[Network Analyzer (1a80:178c)]   (Sid: 75) Connection Terminated (by Server)
-[Network Analyzer (1a80:16c4)]   (Sid: 81) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
-[Net An. Error    (1a80:16c4)] SSLAccept(ssl_id = 430402884384 = 000000643602D320) Failed, ctx = 0000006439D75D80, err = "SSLv3 read client key exchange A", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
-error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
-" 
-[Net An. Error    (1a80:16c4)]   (Sid: 81) Negotiate Client -> Proxy SSL Handshake Failed!!!
-[User action                 ] EndTransactionEvent 3_transaction_Logoff [Network Analyzer (1a80:178c)]   (Sid: 80) Connection Terminated (by Client)
-[Network Analyzer (1a80:178c)]   (Sid: 81) Connection Terminated (by Client)
-[Network Analyzer (1a80: 620)] Address lookup for Admin = 192.168.1.3
-[Network Analyzer (1a80: 620)] Request Connection: Remote Server @ 64.233.161.100:443   (Service=)  (Sid= 82)  PROXIED!
+[Net An. Error    (1cf0:19a4)]   (Sid: 28) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[User action                 ] StartTransactionEvent 2_transaction_Flights [Network Analyzer (1cf0: 580)]   (Sid: 28) Connection Terminated (by Client)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (1cf0:1d5c)] Address lookup for Admin = 192.168.1.3
+[Network Analyzer (1cf0:1d5c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 29)  PROXIED!
+[Network Analyzer (1cf0:1d5c)] Address lookup for Admin = 192.168.1.3
+[Web Request      (1cf0: 580)] "GET /cgi-bin/welcome.pl?page=search"   
+[Network Analyzer (1cf0: 580)]   (Sid: 29) Client -> Server @ : 777 bytes (Service=HTTP)
+[Network Analyzer (1cf0:1d5c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 30)  PROXIED!
+[Network Analyzer (1cf0: 580)]   (Sid: 29) Server -> Client : 839 bytes  (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 29) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (1cf0: 580)] "GET /cgi-bin/nav.pl?page=menu&in=flights"   
+[Network Analyzer (1cf0: 580)]   (Sid: 29) Client -> Server @ : 760 bytes (Service=HTTP)
+[Web Request      (1cf0: 580)] "GET /cgi-bin/reservations.pl?page=welcome"   
+[Network Analyzer (1cf0: 580)]   (Sid: 30) Client -> Server @ : 761 bytes (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 30) Server -> Client : 4235 bytes  (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 30) Server -> Client : 281 bytes  (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 29) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 30) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 29) Server -> Client : 5 bytes  (Service=HTTP)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Web Request      (1cf0: 580)] "GET /WebTours/images/button_next.gif"   
+[Network Analyzer (1cf0: 580)]   (Sid: 30) Client -> Server @ : 646 bytes (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 30) Server -> Client : 1055 bytes  (Service=HTTP)
+[Web Request      (1cf0: 580)] "GET /WebTours/images/in_flights.gif"   
+[Network Analyzer (1cf0: 580)]   (Sid: 30) Client -> Server @ : 644 bytes (Service=HTTP)
+[Web Request      (1cf0: 580)] "GET /WebTours/images/home.gif"   
+[Network Analyzer (1cf0: 580)]   (Sid: 29) Client -> Server @ : 638 bytes (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 30) Server -> Client : 1023 bytes  (Service=HTTP)
+[Web Request      (1cf0: 580)] "GET /v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRJMCUFCU6JtyxUKEgsNVGIprRIAGgAiABILDXudxKUSABoAIgASCw0fOzmFEgAaACIAEgsN2oWZYRIAGgAiABILDamOSr0SABoAIgAaAA==?alt=proto"   
+[Network Analyzer (1cf0: 580)]   (Sid: 14) Client -> Server @ : 608 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 29) Server -> Client : 985 bytes  (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 14) Server -> Client : 665 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0:1d5c)] Address lookup for Admin = 192.168.1.3
+[Network Analyzer (1cf0:1d5c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 31)  PROXIED!
+[User action                 ] EndTransactionEvent 2_transaction_Flights [Network Analyzer (1cf0: 580)]   (Sid: 30) Connection Terminated (by Server)
+[Network Analyzer (1cf0: 580)]   (Sid: 29) Connection Terminated (by Server)
+[User action                 ] StartTransactionEvent 3_transaction_Flight_Info [Network Analyzer (1cf0:1d5c)] Address lookup for Admin = 192.168.1.3
+[Network Analyzer (1cf0:1d5c)] Request Connection: Remote Server @ 64.233.164.95:443   (Service=)  (Sid= 32)  PROXIED!
+[Network Analyzer (1cf0:1558)]   (Sid: 32) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (1cf0:1558)]   (Sid: 32) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (1cf0: 580)] "GET /v4/threatListUpdates:fetch?$req=Ch0KDGdvb2dsZWNocm9tZRINODAuMC4zOTg3LjE0ORopCAUQARobCg0IBRAGGAEiAzAwMTABEIqlCBoCGApZ4YQ2IgQgASACKAEaKQgBEAEaGwoNCAEQBhgBIgMwMDEwARDWlwcaAhgKnTJJnSIEIAEgAigBGikIAxABGhsKDQgDEAYYASIDMDAxMAEQ4ZoHGgIYChTZxFIiBCABIAIoARopCAcQARobCg0IBxAGGAEiAzAwMTABEPCPBxoCGApRAnXWIgQgASACKAEaJwgBEAEaGQoNCAEQBhgBIgMwMDEwAxAUGgIYCv-xTLIiBCABIAIoAxooCAEQCBoaCg0IARAIGAEiAzAwMTAEENsZGgIYChbr8SUiBCABIAIoBBonCAkQARoZCg0ICRAGGAEiAzAwMTAGEAMaAhgKlWHZyiIEIAEgAigGGigIDxABGhoKDQgPEAYYASIDMDAxMAEQyyYaAhgKpcZCqyIEIAEgAigBGicIChAIGhkKDQgKEAgYASIDMDAxMAEQBRoCGAqQdhXdIgQgASACKAEaJwgJEAEaGQoNCAkQBhgBIgMwMDEwARAZGgIYCpqx1XoiBCABIAIoARooCAgQARoaCg0ICBAGGAEiAzAwMTABEKsIGgIYCnvksUkiBCABIAIoARooCA0QARoaCg0IDRAGGAEiAzAwMTABEK5xGgIYCjynEPAiBCABIAIoARopCA4QARobCg0IDhAGGAEiAzAwMTABEIyrAxoCGArENAFSIgQgASACKAEaKAgQEAEaGgoNCBAQBhgBIgMwMDEwARCFAhoCGApv4oh0IgQgASACKAEiAggB&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"   
+[Network Analyzer (1cf0: 580)]   (Sid: 32) Client -> Server @ : 1253 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 32) Server -> Client : 1373 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 32) Server -> Client : 76 bytes (SSL) (Service=HTTP)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (1cf0: 580)]   (Sid: 31) Connection Terminated (by Client)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[API Trapper      ( 354:1bac)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (1cf0:1d5c)] Address lookup for Admin = 192.168.1.3
+[Network Analyzer (1cf0:1d5c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 33)  PROXIED!
+[Network Analyzer (1cf0:1d5c)] Address lookup for Admin = 192.168.1.3
+[Web Request      (1cf0: 580)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer (1cf0: 580)]   (Sid: 33) Client -> Server @ : 1147 bytes (Service=HTTP)
+[Network Analyzer (1cf0:1d5c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 34)  PROXIED!
+[Network Analyzer (1cf0: 580)]   (Sid: 33) Server -> Client : 2712 bytes  (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 33) Server -> Client : 5 bytes  (Service=HTTP)
+[User action                 ] EndTransactionEvent 3_transaction_Flight_Info [Network Analyzer (1cf0: 580)]   (Sid: 33) Connection Terminated (by Server)
+[User action                 ] StartTransactionEvent 4_transaction_Select_Time [Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (1cf0: 580)]   (Sid: 34) Connection Terminated (by Client)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (1cf0:1d5c)] Address lookup for Admin = 192.168.1.3
+[Network Analyzer (1cf0:1d5c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 35)  PROXIED!
+[Network Analyzer (1cf0:1d5c)] Address lookup for Admin = 192.168.1.3
+[Web Request      (1cf0: 580)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer (1cf0: 580)]   (Sid: 35) Client -> Server @ : 1037 bytes (Service=HTTP)
+[Network Analyzer (1cf0:1d5c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 36)  PROXIED!
+[Network Analyzer (1cf0: 580)]   (Sid: 35) Server -> Client : 2966 bytes  (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 35) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (1cf0: 580)] "GET /v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRJmCTnKWcjO4LgAEgsNa2iabhIAGgAiABILDU-eJ_gSABoAIgASCw1jkyeHEgAaACIAEgsNolm4SRIAGgAiABILDfi0_qASABoAIgASCw1XaCyZEgAaACIAEgsNbfpmyRIAGgAiABoA?alt=proto"   
+[Network Analyzer (1cf0: 580)]   (Sid: 14) Client -> Server @ : 640 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 14) Server -> Client : 686 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 35) Connection Terminated (by Server)
+[User action                 ] EndTransactionEvent 4_transaction_Select_Time [User action                 ] StartTransactionEvent 5_transaction_Payment [Network Analyzer (1cf0:1d5c)] Address lookup for Admin = 192.168.1.3
+[Network Analyzer (1cf0:1d5c)] Request Connection: Remote Server @ 64.233.162.94:443   (Service=)  (Sid= 37)  PROXIED!
+[Network Analyzer (1cf0: 694)]   (Sid: 37) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (1cf0: 694)]   (Sid: 37) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (1cf0: 580)] "GET /docs/common/netcheck.gif?zx=xi3ikxxszrc7"   
+[Network Analyzer (1cf0: 580)]   (Sid: 37) Client -> Server @ : 635 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 37) Server -> Client : 597 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid:  8) Connection Terminated (by Client)
+[Network Analyzer (1cf0: 580)]   (Sid: 36) Connection Terminated (by Client)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (1cf0:1d5c)] Address lookup for Admin = 192.168.1.3
+[Network Analyzer (1cf0:1d5c)] Request Connection: Remote Server @ 104.28.1.161:443   (Service=)  (Sid= 38)  PROXIED!
+[Network Analyzer (1cf0:1d5c)] Address lookup for Admin = 192.168.1.3
+[Network Analyzer (1cf0:1d5c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 39)  PROXIED!
+[Net An. Error    (1cf0:1e58)] SSL_connect(ssl_id = 1096530131824 = 000000FF4E49FB70) Failed, ctx = 000000FF4E49F210, err = "SSLv2/v3 read server hello A", err code = 1, err msg = "error:00000001:lib(0):func(0):reason(1)
+error:14077410:SSL routines:SSL23_GET_SERVER_HELLO:sslv3 alert handshake failure
+"
+[Net An. Error    (1cf0:1e58)]   (Sid: 38) SSL handshake with remote server Failed!
+[Web Request      (1cf0: 580)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer (1cf0: 580)]   (Sid: 39) Client -> Server @ : 1189 bytes (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 39) Server -> Client : 2853 bytes  (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 39) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (1cf0: 580)] "GET /WebTours/images/bookanother.gif"   
+[Network Analyzer (1cf0: 580)]   (Sid: 39) Client -> Server @ : 609 bytes (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 39) Server -> Client : 1103 bytes  (Service=HTTP)
+[User action                 ] EndTransactionEvent 5_transaction_Payment [Network Analyzer (1cf0: 580)]   (Sid: 39) Connection Terminated (by Server)
+[User action                 ] StartTransactionEvent 6_transaction_Itinerary [Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (1cf0:1d5c)] Address lookup for Admin = 192.168.1.3
+[Network Analyzer (1cf0:1d5c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 40)  PROXIED!
+[Network Analyzer (1cf0:1d5c)] Address lookup for Admin = 192.168.1.3
+[Web Request      (1cf0: 580)] "GET /cgi-bin/welcome.pl?page=itinerary"   
+[Network Analyzer (1cf0: 580)]   (Sid: 40) Client -> Server @ : 759 bytes (Service=HTTP)
+[Network Analyzer (1cf0:1d5c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 41)  PROXIED!
+[Network Analyzer (1cf0: 580)]   (Sid: 40) Server -> Client : 814 bytes  (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 40) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (1cf0: 580)] "GET /cgi-bin/nav.pl?page=menu&in=itinerary"   
+[Network Analyzer (1cf0: 580)]   (Sid: 40) Client -> Server @ : 741 bytes (Service=HTTP)
+[Web Request      (1cf0: 580)] "GET /cgi-bin/itinerary.pl"   
+[Network Analyzer (1cf0: 580)]   (Sid: 41) Client -> Server @ : 724 bytes (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 40) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 40) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 41) Server -> Client : 4235 bytes  (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 41) Server -> Client : 7790 bytes  (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 41) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (1cf0: 580)] "GET /WebTours/images/in_itinerary.gif"   
+[Network Analyzer (1cf0: 580)]   (Sid: 41) Client -> Server @ : 624 bytes (Service=HTTP)
+[Web Request      (1cf0: 580)] "GET /WebTours/images/cancelreservation.gif"   
+[Network Analyzer (1cf0: 580)]   (Sid: 40) Client -> Server @ : 612 bytes (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 40) Server -> Client : 1128 bytes  (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 41) Server -> Client : 1030 bytes  (Service=HTTP)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Web Request      (1cf0: 580)] "GET /WebTours/images/cancelallreservations.gif"   
+[Network Analyzer (1cf0: 580)]   (Sid: 40) Client -> Server @ : 616 bytes (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 40) Server -> Client : 1039 bytes  (Service=HTTP)
+[Network Analyzer (1cf0:1d5c)] Address lookup for Admin = 192.168.1.3
+[Network Analyzer (1cf0:1d5c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 42)  PROXIED!
+[User action                 ] EndTransactionEvent 6_transaction_Itinerary [Network Analyzer (1cf0: 580)]   (Sid: 41) Connection Terminated (by Server)
+[Network Analyzer (1cf0: 580)]   (Sid: 40) Connection Terminated (by Server)
+[User action                 ] StartTransactionEvent 7_transaction_Home [Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (1cf0: 580)]   (Sid: 42) Connection Terminated (by Client)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (1cf0:1d5c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (1cf0:1d5c)] Address lookup for Admin = 192.168.1.3
+[Network Analyzer (1cf0:1d5c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 43)  PROXIED!
+[Network Analyzer (1cf0:1d5c)] Address lookup for Admin = 192.168.1.3
+[Web Request      (1cf0: 580)] "GET /cgi-bin/welcome.pl?page=menus"   
+[Network Analyzer (1cf0: 580)]   (Sid: 43) Client -> Server @ : 757 bytes (Service=HTTP)
+[Network Analyzer (1cf0:1d5c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 44)  PROXIED!
+[Network Analyzer (1cf0: 580)]   (Sid: 43) Server -> Client : 819 bytes  (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 43) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (1cf0: 580)] "GET /cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer (1cf0: 580)]   (Sid: 43) Client -> Server @ : 732 bytes (Service=HTTP)
+[Web Request      (1cf0: 580)] "GET /cgi-bin/login.pl?intro=true"   
+[Network Analyzer (1cf0: 580)]   (Sid: 44) Client -> Server @ : 727 bytes (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 44) Server -> Client : 1154 bytes  (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 44) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 43) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid: 43) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (1cf0: 580)]   (Sid:  4) Connection Terminated (by Server)
+[Network Analyzer (1cf0: 580)]   (Sid:  6) Connection Terminated (by Server)
+[Network Analyzer (1cf0: 580)]   (Sid:  5) Connection Terminated (by Server)
+[Network Analyzer (1cf0: 580)]   (Sid:  1) Connection Terminated (by Server)
+[User action                 ] EndTransactionEvent 7_transaction_Home [Network Analyzer (1cf0: 580)]   (Sid: 44) Connection Terminated (by Server)
+[Network Analyzer (1cf0: 580)]   (Sid: 43) Connection Terminated (by Server)
+[Network Analyzer (1cf0: 580)]   (Sid:  3) Connection Terminated (by Server)
+[Network Analyzer (1cf0: 580)]   (Sid: 10) Connection Terminated (by Server)
+[Network Analyzer (1cf0: 580)]   (Sid: 11) Connection Terminated (by Server)
+[Network Analyzer (1cf0: 580)]   (Sid: 12) Connection Terminated (by Server)
+[Network Analyzer (1cf0: 580)]   (Sid: 13) Connection Terminated (by Server)
+[Network Analyzer (1cf0: 580)]   (Sid: 16) Connection Terminated (by Server)
+[User action                 ] EndTransactionEvent 1_transaction_Login_Buy_Itinerary_Home [Network Analyzer (1cf0: 580)]   (Sid:  2) Connection Terminated (by Server)
+[Network Analyzer (1cf0: 580)]   (Sid: 17) Connection Terminated (by Server)
+[Network Analyzer (1cf0: 580)]   (Sid: 18) Connection Terminated (by Server)
+[Network Analyzer (1cf0: 580)]   (Sid: 21) Connection Terminated (by Server)

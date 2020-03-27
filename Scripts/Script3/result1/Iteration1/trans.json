@@ -1,32 +1,32 @@
 [
     {
         "transactionName": "1_transaction_Login",
-        "rawStartTime": 1585136503611,
-        "rawEndTime": 1585136508721
+        "rawStartTime": 1585339586623,
+        "rawEndTime": 1585339586748
     },
     {
         "transactionName": "2_transaction_Flights",
-        "rawStartTime": 1585136513755,
-        "rawEndTime": 1585136518901
+        "rawStartTime": 1585339586752,
+        "rawEndTime": 1585339586878
     },
     {
         "transactionName": "3_transaction_Flight_Info",
-        "rawStartTime": 1585136518917,
-        "rawEndTime": 1585136524018
+        "rawStartTime": 1585339586882,
+        "rawEndTime": 1585339586944
     },
     {
         "transactionName": "4_transaction_Select_Time",
-        "rawStartTime": 1585136529058,
-        "rawEndTime": 1585136529136
+        "rawStartTime": 1585339586976,
+        "rawEndTime": 1585339587069
     },
     {
         "transactionName": "5_transaction_Payment",
-        "rawStartTime": 1585136529151,
-        "rawEndTime": 1585136534252
+        "rawStartTime": 1585339587101,
+        "rawEndTime": 1585339587194
     },
     {
-        "transactionName": "0_transaction_Script_2",
-        "rawStartTime": 1585136503596,
-        "rawEndTime": 1585136534268
+        "transactionName": "transaction_Login-Buy-without-Exit",
+        "rawStartTime": 1585339586404,
+        "rawEndTime": 1585339587210
     }
 ]

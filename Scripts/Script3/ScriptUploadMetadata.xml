@@ -13,8 +13,18 @@
     <FileEntry Name="default.usp" Filter="4" />
     <FileEntry Name="Script3.prm" Filter="2" />
     <FileEntry Name="globals.h" Filter="2" />
+    <FileEntry Name="Class.dat" Filter="2" />
+    <FileEntry Name="Login.dat" Filter="2" />
+    <FileEntry Name="City_1.dat" Filter="2" />
+    <FileEntry Name="City_2.dat" Filter="2" />
+    <FileEntry Name="Sit.dat" Filter="2" />
     <FileEntry Name="combined_Script3.c" Filter="2" />
     <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="17343071440.idx" Filter="1" />
+    <FileEntry Name="17932479440.idx" Filter="1" />
+    <FileEntry Name="209072868440.idx" Filter="1" />
+    <FileEntry Name="247423516440.idx" Filter="1" />
+    <FileEntry Name="258344539440.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
@@ -24,6 +34,7 @@
     <FileEntry Name="lrw_custom_body.h" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
     <FileEntry Name="mdrv43D.903.log" Filter="1" />
+    <FileEntry Name="mdrvLcw.543.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
     <FileEntry Name="output.bak" Filter="1" />

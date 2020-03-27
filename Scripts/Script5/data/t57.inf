@@ -1,0 +1,10 @@
+[t57]
+FileName1=t56.html
+URL1=https://www.googleapis.com/oauth2/v4/token
+Total=1
+SnapshotXmlFile=snapshot_57.xml
+RequestHeaderFile=t57_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t57_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,10 @@
+GET /cgi-bin/welcome.pl?page=menus HTTP/1.1
+Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Accept: */*
+Connection: Keep-Alive
+Host: localhost:1080
+Cookie: MSO=SID&1585338370; MTUserInfo=firstName&Paul&username&player1&address2&Manchester&hash&113&expDate&11%2F21&creditCard&1111%202222%203333%204444&address1&Pogba%20Street&lastName&Pogba%0A
+

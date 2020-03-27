@@ -1,0 +1,13 @@
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+Action.c(162): Notify: Transaction "5_transaction_Payment" ended with a "Pass" status (Duration: 19,3374 Think Time: 10,0072).	[MsgId: MMSG-16872]
+Action.c(164): Notify: Transaction "6_transaction_Logoff" started.	[MsgId: MMSG-16999]
+Action.c(166): Think time - Waiting 5,00 seconds (according to limit).	[MsgId: MMSG-15946]
+Action.c(166): lr_think_time: 5,00 seconds (recorded think time was 28,00 seconds).	[MsgId: MMSG-15947]
+Action.c(168): web_url("welcome.pl_2") started  	[MsgId: MMSG-26355]
+Action.c(168): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+Action.c(168): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+Action.c(168): Retrieving data from cache for "http://localhost:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
+Action.c(168): Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MERR-26612]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
