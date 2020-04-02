@@ -88,7 +88,7 @@
       </CookieManager>
       <hashTree/>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="sendComment" enabled="true">
-        <stringProp name="ThreadGroup.on_sample_error">startnextloop</stringProp>
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <intProp name="LoopController.loops">-1</intProp>
@@ -96,17 +96,72 @@
         <stringProp name="ThreadGroup.num_threads">1</stringProp>
         <stringProp name="ThreadGroup.ramp_time">1</stringProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
-        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.duration">306</stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
       </ThreadGroup>
       <hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="AplanaSite" enabled="true">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="I_HomePage" enabled="true">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
           <boolProp name="TransactionController.parent">false</boolProp>
         </TransactionController>
         <hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/index.html" enabled="true">
+          <kg.apc.jmeter.timers.VariableThroughputTimer guiclass="kg.apc.jmeter.timers.VariableThroughputTimerGui" testclass="kg.apc.jmeter.timers.VariableThroughputTimer" testname="I_jp@gc - Throughput Shaping Timer" enabled="true">
+            <collectionProp name="load_profile">
+              <collectionProp name="84534531">
+                <stringProp name="49">1</stringProp>
+                <stringProp name="50">2</stringProp>
+                <stringProp name="49">1</stringProp>
+              </collectionProp>
+              <collectionProp name="141283584">
+                <stringProp name="50">2</stringProp>
+                <stringProp name="50">2</stringProp>
+                <stringProp name="1722">60</stringProp>
+              </collectionProp>
+              <collectionProp name="85320102">
+                <stringProp name="50">2</stringProp>
+                <stringProp name="52">4</stringProp>
+                <stringProp name="49">1</stringProp>
+              </collectionProp>
+              <collectionProp name="85396772">
+                <stringProp name="52">4</stringProp>
+                <stringProp name="52">4</stringProp>
+                <stringProp name="60">60</stringProp>
+              </collectionProp>
+              <collectionProp name="85395494">
+                <stringProp name="52">4</stringProp>
+                <stringProp name="54">6</stringProp>
+                <stringProp name="49">1</stringProp>
+              </collectionProp>
+              <collectionProp name="141434368">
+                <stringProp name="54">6</stringProp>
+                <stringProp name="54">6</stringProp>
+                <stringProp name="1722">60</stringProp>
+              </collectionProp>
+              <collectionProp name="85470886">
+                <stringProp name="54">6</stringProp>
+                <stringProp name="56">8</stringProp>
+                <stringProp name="49">1</stringProp>
+              </collectionProp>
+              <collectionProp name="141509760">
+                <stringProp name="56">8</stringProp>
+                <stringProp name="56">8</stringProp>
+                <stringProp name="1722">60</stringProp>
+              </collectionProp>
+              <collectionProp name="1818391191">
+                <stringProp name="56">8</stringProp>
+                <stringProp name="1567">10</stringProp>
+                <stringProp name="49">1</stringProp>
+              </collectionProp>
+              <collectionProp name="-241952480">
+                <stringProp name="1567">10</stringProp>
+                <stringProp name="1567">10</stringProp>
+                <stringProp name="1722">60</stringProp>
+              </collectionProp>
+            </collectionProp>
+          </kg.apc.jmeter.timers.VariableThroughputTimer>
+          <hashTree/>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="I_HomePage_GET" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
@@ -172,12 +227,12 @@
             <hashTree/>
           </hashTree>
         </hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="Clients" enabled="true">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="I_sendComment_Clients" enabled="true">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
           <boolProp name="TransactionController.parent">false</boolProp>
         </TransactionController>
         <hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/clients.html" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="I_Clients_GET" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
@@ -246,7 +301,7 @@
             </ResponseAssertion>
             <hashTree/>
           </hashTree>
-          <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="Search Client" enabled="true">
+          <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="I_Search Client" enabled="true">
             <stringProp name="RegexExtractor.useHeaders">false</stringProp>
             <stringProp name="RegexExtractor.refname">Client</stringProp>
             <stringProp name="RegexExtractor.regex">alt=(.+?)/&gt;</stringProp>
@@ -258,12 +313,12 @@
           </RegexExtractor>
           <hashTree/>
         </hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="GuestBook" enabled="true">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="I_GuestBook" enabled="true">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
           <boolProp name="TransactionController.parent">false</boolProp>
         </TransactionController>
         <hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/guestbook.html" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="I_GuestBook_GET" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
@@ -333,12 +388,12 @@
             <hashTree/>
           </hashTree>
         </hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="SendComment" enabled="true">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="I_SendComment" enabled="true">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
           <boolProp name="TransactionController.parent">false</boolProp>
         </TransactionController>
         <hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/service/guestbook" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="I_SendCommentServiceGuestBook_POST" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="user" elementType="HTTPArgument">
@@ -402,7 +457,7 @@
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/service/guestbook" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="I_SendCommentServiceGuestBook_GET" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
@@ -448,12 +503,12 @@
             <hashTree/>
           </hashTree>
         </hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="CheckComment" enabled="true">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="I_CheckComment" enabled="true">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
           <boolProp name="TransactionController.parent">false</boolProp>
         </TransactionController>
         <hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/guestbook.html" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="I_CheckComment_GET" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
@@ -506,7 +561,7 @@
             </HeaderManager>
             <hashTree/>
           </hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/service/guestbook" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="I_CheckCommentServiceGuestBook_GET" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
@@ -566,69 +621,9 @@
             <hashTree/>
           </hashTree>
         </hashTree>
-        <kg.apc.jmeter.timers.VariableThroughputTimer guiclass="kg.apc.jmeter.timers.VariableThroughputTimerGui" testclass="kg.apc.jmeter.timers.VariableThroughputTimer" testname="jp@gc - Throughput Shaping Timer" enabled="true">
-          <collectionProp name="load_profile">
-            <collectionProp name="84534531">
-              <stringProp name="49">1</stringProp>
-              <stringProp name="50">2</stringProp>
-              <stringProp name="49">1</stringProp>
-            </collectionProp>
-            <collectionProp name="141283584">
-              <stringProp name="50">2</stringProp>
-              <stringProp name="50">2</stringProp>
-              <stringProp name="1722">60</stringProp>
-            </collectionProp>
-            <collectionProp name="85320102">
-              <stringProp name="50">2</stringProp>
-              <stringProp name="52">4</stringProp>
-              <stringProp name="49">1</stringProp>
-            </collectionProp>
-            <collectionProp name="85396772">
-              <stringProp name="52">4</stringProp>
-              <stringProp name="52">4</stringProp>
-              <stringProp name="60">60</stringProp>
-            </collectionProp>
-            <collectionProp name="85395494">
-              <stringProp name="52">4</stringProp>
-              <stringProp name="54">6</stringProp>
-              <stringProp name="49">1</stringProp>
-            </collectionProp>
-            <collectionProp name="141434368">
-              <stringProp name="54">6</stringProp>
-              <stringProp name="54">6</stringProp>
-              <stringProp name="1722">60</stringProp>
-            </collectionProp>
-            <collectionProp name="85470886">
-              <stringProp name="54">6</stringProp>
-              <stringProp name="56">8</stringProp>
-              <stringProp name="49">1</stringProp>
-            </collectionProp>
-            <collectionProp name="141509760">
-              <stringProp name="56">8</stringProp>
-              <stringProp name="56">8</stringProp>
-              <stringProp name="1722">60</stringProp>
-            </collectionProp>
-            <collectionProp name="1818391191">
-              <stringProp name="56">8</stringProp>
-              <stringProp name="1567">10</stringProp>
-              <stringProp name="49">1</stringProp>
-            </collectionProp>
-            <collectionProp name="-241952480">
-              <stringProp name="1567">10</stringProp>
-              <stringProp name="1567">10</stringProp>
-              <stringProp name="1722">60</stringProp>
-            </collectionProp>
-            <collectionProp name="-2030799098">
-              <stringProp name="1567">10</stringProp>
-              <stringProp name="48">0</stringProp>
-              <stringProp name="49">1</stringProp>
-            </collectionProp>
-          </collectionProp>
-        </kg.apc.jmeter.timers.VariableThroughputTimer>
-        <hashTree/>
       </hashTree>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="clearGuestbookHistory" enabled="true">
-        <stringProp name="ThreadGroup.on_sample_error">startnextloop</stringProp>
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <intProp name="LoopController.loops">-1</intProp>
@@ -638,17 +633,27 @@
         <longProp name="ThreadGroup.start_time">1370726934000</longProp>
         <longProp name="ThreadGroup.end_time">1370726934000</longProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
-        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.duration">306</stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
       </ThreadGroup>
       <hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="AplanaSite" enabled="true">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="II_HomePage" enabled="true">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
           <boolProp name="TransactionController.parent">false</boolProp>
         </TransactionController>
         <hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/index.html" enabled="true">
+          <kg.apc.jmeter.timers.VariableThroughputTimer guiclass="kg.apc.jmeter.timers.VariableThroughputTimerGui" testclass="kg.apc.jmeter.timers.VariableThroughputTimer" testname="II_jp@gc - Throughput Shaping Timer" enabled="true">
+            <collectionProp name="load_profile">
+              <collectionProp name="-789538989">
+                <stringProp name="1475715">0.05</stringProp>
+                <stringProp name="1475715">0.05</stringProp>
+                <stringProp name="50552">305</stringProp>
+              </collectionProp>
+            </collectionProp>
+          </kg.apc.jmeter.timers.VariableThroughputTimer>
+          <hashTree/>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="II_HomePage_GET" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
@@ -714,12 +719,12 @@
             <hashTree/>
           </hashTree>
         </hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="GuestBook" enabled="true">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="II_GuestBook" enabled="true">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
           <boolProp name="TransactionController.parent">false</boolProp>
         </TransactionController>
         <hashTree>
-          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/guestbook.html" enabled="true">
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="II_GuestBook_GET" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
               <collectionProp name="Arguments.arguments"/>
             </elementProp>
@@ -789,12 +794,12 @@
             <hashTree/>
           </hashTree>
         </hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="CountRecords" enabled="true">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="II_CountRecords" enabled="true">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
           <boolProp name="TransactionController.parent">false</boolProp>
         </TransactionController>
         <hashTree>
-          <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="SELECT" enabled="true">
+          <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="II_SELECT" enabled="true">
             <stringProp name="dataSource">H2BOOK</stringProp>
             <stringProp name="query">SELECT COUNT(*) FROM BOOK</stringProp>
             <stringProp name="queryArguments"></stringProp>
@@ -821,13 +826,13 @@
             <hashTree/>
           </hashTree>
         </hashTree>
-        <IfController guiclass="IfControllerPanel" testclass="IfController" testname="Count&gt;20" enabled="true">
+        <IfController guiclass="IfControllerPanel" testclass="IfController" testname="II_Count&gt;20" enabled="true">
           <stringProp name="IfController.condition">${__jexl3(${Count_1} &gt; 20)}</stringProp>
           <boolProp name="IfController.evaluateAll">false</boolProp>
           <boolProp name="IfController.useExpression">true</boolProp>
         </IfController>
         <hashTree>
-          <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="TRUNCATE" enabled="true">
+          <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="II_TRUNCATE" enabled="true">
             <stringProp name="dataSource">H2BOOK</stringProp>
             <stringProp name="queryType">Update Statement</stringProp>
             <stringProp name="query">TRUNCATE TABLE BOOK</stringProp>
@@ -854,16 +859,6 @@
             <hashTree/>
           </hashTree>
         </hashTree>
-        <kg.apc.jmeter.timers.VariableThroughputTimer guiclass="kg.apc.jmeter.timers.VariableThroughputTimerGui" testclass="kg.apc.jmeter.timers.VariableThroughputTimer" testname="jp@gc - Throughput Shaping Timer" enabled="true">
-          <collectionProp name="load_profile">
-            <collectionProp name="-789538951">
-              <stringProp name="1475715">0.05</stringProp>
-              <stringProp name="1475715">0.05</stringProp>
-              <stringProp name="50553">306</stringProp>
-            </collectionProp>
-          </collectionProp>
-        </kg.apc.jmeter.timers.VariableThroughputTimer>
-        <hashTree/>
       </hashTree>
       <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
         <boolProp name="ResultCollector.error_logging">false</boolProp>
@@ -879,22 +874,25 @@
             <message>true</message>
             <threadName>true</threadName>
             <dataType>true</dataType>
-            <encoding>false</encoding>
+            <encoding>true</encoding>
             <assertions>true</assertions>
             <subresults>true</subresults>
-            <responseData>false</responseData>
-            <samplerData>false</samplerData>
+            <responseData>true</responseData>
+            <samplerData>true</samplerData>
             <xml>false</xml>
             <fieldNames>true</fieldNames>
-            <responseHeaders>false</responseHeaders>
-            <requestHeaders>false</requestHeaders>
+            <responseHeaders>true</responseHeaders>
+            <requestHeaders>true</requestHeaders>
             <responseDataOnError>false</responseDataOnError>
             <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
             <assertionsResultsToSave>0</assertionsResultsToSave>
             <bytes>true</bytes>
             <sentBytes>true</sentBytes>
             <url>true</url>
+            <fileName>true</fileName>
+            <hostname>true</hostname>
             <threadCounts>true</threadCounts>
+            <sampleCount>true</sampleCount>
             <idleTime>true</idleTime>
             <connectTime>true</connectTime>
           </value>
